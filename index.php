@@ -19,11 +19,11 @@ include("./dba/db.php");
 
 <body>
 
-    <header class="menu inicio">
+    <header class="menu" id="inicio">
         <div class="container">
 
             <h1 class="titulo-menu">
-              <a href="#" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
+              <a href="#inicio" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 

@@ -21,7 +21,7 @@ include("../dba/db.php");
         <div class="container">
 
             <h1 class="titulo-menu">
-                <a href="#" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
+                <a href="../index.php" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 
@@ -46,7 +46,7 @@ include("../dba/db.php");
         <div id="formContent">
           
             <div class="fadeIn first py-5">
-                <img src="../assets/img/logo2.jpg" id="icon" alt="User Icon" />
+                <img src="../assets/img/" id="icon" alt="User Icon" />
             </div>
         
             <form class="wrapper fadeInDown" action="../assets/php/validaciones/validacion-login.php" method="POST">

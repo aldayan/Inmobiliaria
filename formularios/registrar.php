@@ -10,12 +10,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/style-index.css">
+    <link rel="stylesheet" href="../assets/css/style-registrar.css">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
-    <link rel="icon" href="../assets/img/social-icon.ico">
+    <link rel="icon" href="../assets/img/logo2.jpg">
 </head>
 
 <body>
@@ -24,7 +23,7 @@
         <div class="container">
 
             <h1 class="titulo-menu">
-                <img src="assets/img/rueda.png" class="goma"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
+                <a href="../index.php" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 
@@ -42,17 +41,17 @@
         </div>
     </header>
 
-    <main class="container">
+    <main class="desarrollo">
         <div class="row mx-0 mx-md-5 mb-5 ">
 
-            <form class="border mt-5  p-5 rounded  shadow col-12" action="../assets/php/registrar/registrar-usuarios.php" method="POST">
+            <form class="formulario" action="../assets/php/registrar/registrar-usuarios.php" method="POST">
 
                 <div class="py-5 text-center">
                     <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
-                <p class="text-justify">Completar este formulario para tener mas información acerca de usted y poder contactarnos.</p>
+                <p class="text-justify">Completando este formulario de registro en la pagina web, podra tener su propia cuenta y publicar sus inmuebles en ventas o en alquiler</p>
 
                 <div class="Form my-4">
                     <label for="First_name" class="form-label"><b>Nombre:</b></label>
