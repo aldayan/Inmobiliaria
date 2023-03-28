@@ -57,7 +57,7 @@ include("../dba/db.php");
                     <img class="d-block mx-auto mb-4" src="../assets/img/horizontal/oscuro/small.png" alt="">
                 </div>
 
-                <h2 class="mb-3 ">Formulario</h2>
+                <h2 class="mb-3 ">Registrando</h2>
                 <p class="text-justify">Completar este formulario para tener mas información acerca de usted y poder contactarnos.</p>
 
                 <div class="Form my-4">
@@ -115,9 +115,18 @@ include("../dba/db.php");
                     <div class="invalid-feedback">
                         Ingrese un correo.
                     </div>
+                 </div>
+                
+                <div class="Form my-4">
+                    <label for="contraseña" class="form-label"><b>Contraseña:</b></label>
+                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña" value="" required>
+                    <div class="invalid-feedback">
+                       Ingrese su contraseña
+                    </div>
                     <hr class="my-4">
                     <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Enviar y continuar</h5></button>
                 </div>
+                
             </form>
 
 
