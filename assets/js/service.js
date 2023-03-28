@@ -1,5 +1,5 @@
 const listaProducto = () => {
-    return fetch(' http://localhost:3000/inmobiliaria').then(respuesta => {
+    return fetch('http://localhost:3000/inmobiliaria').then(respuesta => {
         return respuesta.json();
     });
 };
@@ -22,7 +22,7 @@ const crearSesion = (email, contraseña) => {
 
 //creando producto
 const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
-    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
+    return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
