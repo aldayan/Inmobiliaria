@@ -10,7 +10,7 @@ const crearNueva = (url, nombreProducto, costo, id) => {
         <h3>${nombreProducto}</h3>
         <p class="costo" >$${costo}</p>
         <hr>
-        <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
+        <a href="decripcion/descripcion.html?id=${id}" class="enlace">Ver inmueble</a>
     </div>
 </div>`
 

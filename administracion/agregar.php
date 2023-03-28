@@ -8,7 +8,7 @@ include("../dba/db.php");
 <html lang="en">
 
 <head>
-    <title>Agregar Productos-Biker Racer</title>
+    <title>Agregar Inmubles | ADDE CAPITAL. S.A.</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../assets/css/reset.css" rel="stylesheet">

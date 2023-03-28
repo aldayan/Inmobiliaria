@@ -15,12 +15,12 @@ include("./dba/db.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style-index.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/" type="image/x-icon">
+    <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
 </head>
 
 <body>
 
-    <header class="menu">
+    <header class="menu inicio">
         <div class="container">
 
             <h1 class="titulo-menu">
@@ -30,8 +30,11 @@ include("./dba/db.php");
 
             <nav class="lista-menu">
             <ul class="menu-enlaces">
-                    <li class="enlaces-menu"><a href="./login/login.php">Login</a></li>
-                    <li class="enlaces-menu"><a href="#proyectos ">Registrate</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
+                    <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
+                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrar</a></li> 
                 </ul>
             </nav>
 
@@ -62,6 +65,17 @@ include("./dba/db.php");
                     </div>
 
                     <div class="deportiva" data-deportiva>
+
+
+ <div class="caja-inmueble" style="background-image:url(${url}); background-position: center;">
+    <div class="caja-contenido" >
+        <img src="./assets/img/logo2.jpg" alt="logo">
+        <h3>${nombreProducto}</h3>
+        <span class="costo" >$${costo}</span>
+        <hr>
+        <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
+    </div>
+</div>
 
                     </div>
 
@@ -111,7 +125,7 @@ include("./dba/db.php");
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/ " class="img-contacto" alt="rueda">
+                            <img src="./assets/img/ " class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
