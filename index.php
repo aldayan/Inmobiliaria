@@ -1,0 +1,169 @@
+<?php
+
+include("./dba/db.php");
+
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Biker Racer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/style-index.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/rueda.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="container">
+
+            <h1 class="titulo-menu">
+                <img src="assets/img/rueda.png" class="goma"><a href="#" class="titulo-menu">Biker Racer</a>
+            </h1>
+
+            <input type="text" class="buscador" id="buscador" placeholder="¿Qué deseas buscar?">
+
+            <nav class="lista-menu">
+                <a class="enlace-menu" href="login/login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="desarrollo">
+        <div class="container">
+
+
+            <section class="pizarra">
+                <div class="container">
+
+                    <div class="imagen-pizarra articulo">
+
+                        <ul>
+                            <li style="background-image: url(assets/img/kawa.jpg); background-size: cover; background-position:center;">
+
+                                <h1 class="descripcion-pizarra">Lo mejor de las motos es que cuando vas en una, no extrañas a nadie.</h1>
+                            </li>
+                            <li style="background-image: url(assets/img/fat.jpg); background-repeat: no-repeat; background-size: cover; background-position:center;">
+                                <h1 class="descripcion-pizarra">Nunca dejare de acelerar.</h1>
+                            </li>
+                            <li style="background-image: url(assets/img/cross.jpg); background-size: cover;">
+                                <h1 class="descripcion-pizarra">En el suelo mas dañado y en la montaña mas incomoda, ahi estaremos.</h1>
+                            </li>
+                            <li style="background-image: url(assets/img/cafe.jpg);background-size: cover; background-position:center;">
+                                <h1 class="descripcion-pizarra">Biker por siempre.</h1>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="Deportivas articulo" id="deportivas">
+                <div class="container">
+                    <div class="marca">
+                        <h3 class="titulo-deportivas ">Deportivas</h3>
+                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+                    </div>
+
+                    <div class="deportiva" data-deportiva>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="HarleyD articulo" id="harleyd">
+                <div class="container ">
+                    <div class="marca">
+                        <h3 class="titulo-harley ">Harley Davidson</h3>
+                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+                    </div>
+
+                    <div class="harley" data-harley>
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="MotoCross articulo" id="motocross">
+                <div class="container">
+                    <div class="marca">
+                        <h3 class="titulo-motocross ">MotoCross</h3>
+                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+                    </div>
+
+                    <div class="motocross" data-motocross>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="contactos " id="contactos ">
+                <div class="container ">
+                    <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
+
+                    <div class="informacion-contacto">
+                        <nav class="lista-contacto">
+                            <img src="assets/img/contacto.png " class="img-contacto " alt="rueda ">
+
+                            <ul class="lista-informacion">
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Políticas de privacidad</a></li>
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Programa de fidelidad</a></li>
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Nuestras Tiendas</a></li>
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quiero ser Franquiciado</a></li>
+                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Anuncie Aquí</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="contacto ">
+                            <div class="titulos-contacto ">
+                                <h3 class=" contacto-subtexto ">Hablanos</h3>
+                            </div>
+                            <form action="https://formsubmit.co/aldayanaavila02@gmail.com" method="POST" class="contacto-form" id="form" name="form">
+                                <input class="contacto-input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                                <input class="contacto-input" type="email" id="email" name="email" placeholder="E-mail" required>
+                                <input class="contacto-input" type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
+                                <br>
+                                <p class="alerta " id="alerta "></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Hecho por
+            <a href="https://aldayan.github.io/sprint-1-portafolio/">Aldayan A. Avila Dotel </a>
+        </p>
+        <a href="https://www.linkedin.com/in/aldayan-avila-b972a2239/"><img src="assets/img/linkedin.png " alt="logo de linkedin "></a>
+        <a href="https://github.com/aldayan"><img src="assets/img/github.png " alt="logo de github "></a>
+
+    </footer>
+
+
+   
+    <script type="module" src="./assets/js/index-producto.js">
+    </script>
+</body>
+
+</html>
