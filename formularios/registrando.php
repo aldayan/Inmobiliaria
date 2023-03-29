@@ -81,11 +81,13 @@ include("../dba/db.php");
                    
                 <div class="Form my-4">
                     <label for="id_cargo" class="form-label"><b>id:</b></label>
-                    <input type="text" class="form-control" id="id_cargo" name="id_cargo" placeholder="id_cargo"  required>
-                    <div class="invalid-feedback">
-                       Ingrese su contraseña
-                    </div>
-                    <hr class="my-4">
+                    <div class="individiduales mx-5  mb-5">
+                        <select name="id_cargo"  class="form-control text-center"  placeholder="Elija un digito del 1 al 10" required>
+                        <option value="">Elija su sexo</option>
+                        <option value="2">Masculino</option>
+                        <option value="2">Femenino</option>
+                   </select>
+                </div>
                     <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
                 </div>
                 

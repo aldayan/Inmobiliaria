@@ -46,12 +46,11 @@ if(!isset($usuario)){
 
             <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link " href="pasantes activos.php">Usuarios Registrados</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="informacion de evaluaciones pasantes.php">Agregar Inmuebles</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="seguimiento de recursos.php">Ver todas las publicaciones</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="chat/chatpage.php">Chat</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li>
-                </ul>
+                    <li class="nav-item"> <a class="nav-link " href="administracion.php">Usuarios Registrados</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="agregar.php">Agregar Inmuebles</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="publicaciones.php">Ver todas las publicaciones</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="../chat/chat.php">Chat</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li></ul>
             </div>
         </div>
     </nav>
@@ -79,7 +78,7 @@ if(!isset($usuario)){
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="chat/chatpage.php">
+                            <a class="nav-link" href="../chat/chat.php">
                             <span data-feather="layers"></span>Chat
                             </a>
                         </li>
@@ -199,3 +198,5 @@ if(!isset($usuario)){
 </body>
 
 </html>
+
+

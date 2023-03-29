@@ -16,35 +16,93 @@ if(!isset($usuario)){
 <html lang="en">
 
 <head>
-    <title>Agregar Inmubles | ADDE CAPITAL. S.A.</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../assets/css/reset.css" rel="stylesheet">
-    <link href="../assets/css/style-agregar.css" rel="stylesheet">
-    <link href="../assets/css/style-index.css" rel="stylesheet">
-    <link rel="icon" href="../assets/img/" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/" media="screen">
+    <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    
+    <title>Administracion | ADDE CAPITAL. S.A.</title>
+
+    <link rel="icon" href="../assets/img/">
+
+    <script src="https://kit.fontawesome.com/0f48d8c00d.js"></script>
 </head>
 
 <body>
-    <header class="menu">
+
+    <nav class="navbar navbar-dark bg-dark  fixed-top ">
         <div class="container">
+            <a href="#" class="navbar-brand">
+                <strong>ADDE CAPITAL. S.A.</strong>
+            </a>
 
-            <h1 class="titulo-menu"><img src="../assets/img/" class="goma"><a href="../index.php" class="titulo-menu">Biker Racer </a></h1>
+            <button type="button" class="navbar-toggler d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    
-            <nav class="lista-menu">
-                <a class="enlace-menu" href="administracion.html">Volver</a>
-            </nav>
+            <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link " href="administracion.php">Usuarios Registrados</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="agregar.php">Agregar Inmuebles</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="publicaciones.php">Ver todas las publicaciones</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="../chat/chat.php">Chat</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li>
+                </ul>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main class="desarrollo">
-        <div class="container">
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="administracion.php">
+                                <span data-feather="home">Usuarios Registrados</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="agregar.php">
+                                <span data-feather="file"></span>Agregar Inmuebles
+                            </a>
+                        </li>
 
-            <section class="agregar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="publicaciones.php">
+                                <span data-feather="bar-chart-2"></span>Ver todas las publicaciones
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="../chat/chat.php">
+                            <span data-feather="layers"></span>Chat
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../login/cerrar.php">
+                                <span data-feather="layers"></span>Cerrar sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Agregar Inmueble</h1>
+                </div>
+        
+                <section class="agregar">
                 <div class="container">
                     <div class="agregados">
-                        <h3 class="titulo-agregar">Agregar Producto</h3>
+                 
                         <form class="agregar-form" data-form-agregar>
                             <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required data-url>
                             <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
@@ -63,16 +121,12 @@ if(!isset($usuario)){
                 </div>
             </section>
 
-
-
+            </main>
         </div>
-    </main>
+    </div>
 
-    <footer>
- </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="module" src="../assets/js/agregar-producto.js"></script>
+    <script type="module" src="../assets/js/agregar-producto.js">
+    </script>
 </body>
 
 </html>

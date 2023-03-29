@@ -6,4 +6,3 @@ include("../dba/db.php");
 ?>
 
 
-bien 😎

@@ -7,7 +7,7 @@ const listaProducto = () => {
 
 //creando sesion
 const crearSesion = (email, contraseña) => {
-    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
+    return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
 
         body: JSON.stringify({
@@ -43,7 +43,7 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
 
 const eliminarProducto = (id) => {
 
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
+    return fetch(`http://localhost:3000/inmobiliaria${id}`, {
 
         method: 'DELETE'
     });
@@ -54,7 +54,7 @@ const eliminarProducto = (id) => {
 //detalle del producto
 
 const detalleProducto = (id) => {
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`).then((respuesta) => respuesta.json()
+    return fetch(`http://localhost:3000/inmobiliaria${id}`).then((respuesta) => respuesta.json()
 
     );
 };
@@ -64,7 +64,7 @@ const detalleProducto = (id) => {
 //actualizar producto
 
 const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
+    return fetch(`http://localhost:3000/inmobiliaria${id}`, {
         method: 'PUT',
 
         headers: {
