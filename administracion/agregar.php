@@ -1,6 +1,14 @@
 <?php
-
+session_start();
 include("../dba/db.php");
+
+$usuario = $_SESSION['correo'];
+if(!isset($usuario)){
+
+    header("location:../login/login.php");
+
+}
+
 
 ?>
 

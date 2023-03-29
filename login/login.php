@@ -53,8 +53,8 @@ include("../dba/db.php");
                 <img src="../assets/img/logo2.jpg" id="icon" alt="User Icon" />
             </div>
         
-            <form class="wrapper fadeInDown" action="../dba/validacion.php" method="POST">
-                <input type="text" id="nombre" class="fadeIn second" name="nombre" placeholder="Usuario" required autofocus>
+            <form class="wrapper fadeInDown" action="../assets/php/validaciones/validacion-login.php" method="POST">
+                <input type="text" id="correo" class="fadeIn second" name="correo" placeholder="Ingrese su correo electronico" required autofocus>
                 <input type="password" id="contraseña" class="fadeIn third" name="contraseña" placeholder="Contraseña" required>
                 <input type="submit" class="fadeIn fourth" value="Iniciar">
             </form>

@@ -1,6 +1,14 @@
 <?php
-
+session_start();
 include("../dba/db.php");
+
+$usuario = $_SESSION['correo'];
+if(!isset($usuario)){
+
+    header("location:../login/login.php");
+
+}
+
 
 ?>
 
@@ -78,7 +86,7 @@ include("../dba/db.php");
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="../login/login.php">
+                            <a class="nav-link" href="../login/cerrar.php">
                                 <span data-feather="layers"></span>Cerrar sesión
                             </a>
                         </li>
@@ -110,8 +118,6 @@ include("../dba/db.php");
                                 <th scope="col">Teléfono</th>
                                 <th scope="col">Dirección</th>
                                 <th scope="col">Dónde vives</th>
-                                <th scope="col">Correo</th>
-                                <th scope="col">contraseña</th>
                                 <th scope="col">Actualizar</th>
                                 <th scope="col">Eliminar</th>
                             </tr>
@@ -119,7 +125,7 @@ include("../dba/db.php");
                         <tbody>
                             <?php
                             $conexion = mysqli_connect("localhost:8111", "root", "", "inmobiliaria");
-                            $sql = "SELECT id,nombre,apellido,cedula,telefono,direccion,ubicacion,Correo,contraseña FROM formulario";
+                            $sql = "SELECT id,nombre,apellido,cedula,telefono,direccion,ubicacion FROM formulario";
                             $resultado = mysqli_query($conexion, $sql);
                             while ($mostrar = mysqli_fetch_row($resultado)) {
                             ?>
@@ -131,8 +137,7 @@ include("../dba/db.php");
                                     <td><?php echo $mostrar['4'] ?></td>
                                     <td><?php echo $mostrar['5'] ?></td>
                                     <td><?php echo $mostrar['6'] ?></td>
-                                    <td><?php echo $mostrar['7'] ?></td>
-                                    <td><?php echo $mostrar['8'] ?></td>
+                                 
 
                                     <td><a href="../assets/php/editar/editar pasantes activos.php?
                                         id=<?php echo $mostrar['0'] ?> &
@@ -142,8 +147,7 @@ include("../dba/db.php");
                                         telefono=<?php echo $mostrar['4'] ?> &
                                         direccion=<?php echo $mostrar['5'] ?> &
                                         donde_vives=<?php echo $mostrar['6'] ?> &
-                                        correo=<?php echo $mostrar['7'] ?> &
-                                        contraseña=<?php echo $mostrar['8'] ?> &   
+                                      
 
                                     " button class="btn btn-edit"><i class="fas fa-edit"></i></a></button></td>
                                     <td><a href="../assets/php/borrar/eliminar pasantes activos.php? id=<?php echo $mostrar['0'] ?> " button class="btn btn-danger"><i class="fas fa-trash"></i></a></button></td>

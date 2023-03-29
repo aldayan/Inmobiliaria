@@ -1,26 +1,33 @@
+
+
 <?php
 
-include("./dba/db.php");
+include("../dba/db.php");
 
 ?>
 
 
 
 <!DOCTYPE html>
+
+
 <html lang="en">
 
 <head>
-    <title>Inmobiliaria | ADDE CAPITAL. S.A. </title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./assets/css/reset.css" rel="stylesheet">
-    <link href="./assets/css/style-index.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
+    <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
+
+    <link rel="icon" href="../assets/img/social-icon.ico">
 </head>
 
 <body>
 
-    <header class="menu inicio">
+<header class="menu inicio">
         <div class="container">
 
             <h1 class="titulo-menu">
@@ -30,95 +37,62 @@ include("./dba/db.php");
 
             <nav class="lista-menu">
             <ul class="menu-enlaces">
-                    <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
+                    <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrar</a></li> 
-                    <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
-                  
+                    <li class="enlaces-menu"><a href="#inicio">Login</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Registrase</a></li>
+
                 </ul>
             </nav>
 
         </div>
     </header>
 
-    <main class="desarrollo">
-        <div class="container">
+    <main class="container">
+        <div class="row mx-0 mx-md-5 mb-5 ">
 
-            <section class="buscador-pizarra">
-                <div class="container">
+            <form class="border mt-5  p-5 rounded  shadow col-12" action="../assets/php/registrar/registrar-usuario-login.php" method="POST">
 
-                    <div class="buscador-inmobiliaria">
-
-                    <input type="text" class="buscador" id="buscador" placeholder="¿Qué deseas buscar?">
-                     
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="zona-venta" id="ventas">
-                <div class="container">
-
-                    <div class="zonas">
-                        <h3 class="titulo-ventas">Zonas en venta</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
-                    </div>
-
-                    <div class="deportiva" data-deportiva>
-
-
- <div class="caja-inmueble" style="background-image:url(${url}); background-position: center;">
-    <div class="caja-contenido" >
-        <img src="./assets/img/logo2.jpg" alt="logo">
-        <h3>${nombreProducto}</h3>
-        <span class="costo" >$${costo}</span>
-        <hr>
-        <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
-    </div>
-</div>
-
-                    </div>
-
+                <div class="py-5 text-center">
+                    <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
                 </div>
 
-            </section>
+                <h2 class="mb-3 ">Registrando</h2>
+                <p class="text-justify">Completar este formulario para tener mas información acerca de usted y poder contactarnos.</p>
 
-
-            <section class="zonas-alquiler" id="alquiler">
-                <div class="container ">
-
-                    <div class="zonas">
-                        <h3 class="titulo-alquiler">Zonas de alquiler</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+            
+                <div class="Form">
+                    <label for="Imail" class="form-label"><b>Correo:</b></label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Email@gmail.com"  required>
+                    <div class="invalid-feedback">
+                        Ingrese un correo.
                     </div>
-
-                    <div class="harley" data-harley>
-
+                    
+                 </div>
+                
+                <div class="Form my-4">
+                    <label for="contraseña" class="form-label"><b>Contraseña:</b></label>
+                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña"  required>
+                    <div class="invalid-feedback">
+                       Ingrese su contraseña
                     </div>
-                     
+               </div>
+                   
+                <div class="Form my-4">
+                    <label for="id_cargo" class="form-label"><b>id:</b></label>
+                    <input type="text" class="form-control" id="id_cargo" name="id_cargo" placeholder="id_cargo"  required>
+                    <div class="invalid-feedback">
+                       Ingrese su contraseña
+                    </div>
+                    <hr class="my-4">
+                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
                 </div>
-            </section>
+                
+            </form>
 
 
-            <section class="MotoCross articulo" id="motocross">
-                <div class="container">
-                    <div class="marca">
-                        <h3 class="titulo-motocross ">MotoCross</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
-                    </div>
-
-                    <div class="motocross" data-motocross>
-
-
-
-
-                    </div>
-                </div>
-            </section>
-
-
-
+            
             <section class="contactos " id="contactos ">
                 <div class="container ">
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
@@ -158,11 +132,12 @@ include("./dba/db.php");
                 </div>
             </section>
 
+    
         </div>
     </main>
 
+
     <footer>
-        
         <p>Hecho por
             <a href="https://">Aldayan A. Avila Dotel </a>
         </p>
@@ -172,9 +147,6 @@ include("./dba/db.php");
     </footer>
 
 
-   
-    <script type="module" src="./assets/js/index-producto.js">
-    </script>
 </body>
 
 </html>

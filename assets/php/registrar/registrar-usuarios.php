@@ -5,8 +5,7 @@ $cedula=$_POST['cedula'];
 $telefono=$_POST['telefono'];
 $direccion=$_POST['direccion'];
 $ubicacion=$_POST['ubicacion'];
-$correo=$_POST['correo'];
-$contraseña=$_POST['contraseña'];
+
 
 
 $i;
@@ -27,15 +26,14 @@ if(count($campo)>0){
 $conexion=mysqli_connect("localhost:8111","root","","inmobiliaria");
 
 $sql = "INSERT INTO formulario  VALUES (id,'$nombre','$apellido','$cedula','$telefono',
-'$direccion','$ubicacion','$correo','$contraseña')";
+'$direccion','$ubicacion')";
 
 $ejecutar = mysqli_query ($conexion,$sql) or die (mysqli_error($conexion));
 
  if ($ejecutar){
 
-     echo "Datos guardados";
-   
-header("location:./../../../formularios/completado.php");
+    
+header("location:../../../formularios/registrando.php");
 
 }
 else {

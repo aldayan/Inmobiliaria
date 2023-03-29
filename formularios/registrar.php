@@ -108,26 +108,12 @@ include("../dba/db.php");
                     <div class="invalid-feedback">
                         Ingrese una Residencia.
                     </div>
+                    <hr class="my-4">
+                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Enviar y continuar</h5></button>
+                
                 </div>
 
-                <div class="Form">
-                    <label for="Imail" class="form-label"><b>Correo:</b></label>
-                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Email@gmail.com"  required>
-                    <div class="invalid-feedback">
-                        Ingrese un correo.
-                    </div>
-                    
-                 </div>
-                
-                <div class="Form my-4">
-                    <label for="contraseña" class="form-label"><b>Contraseña:</b></label>
-                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña"  required>
-                    <div class="invalid-feedback">
-                       Ingrese su contraseña
-                    </div>
-                    <hr class="my-4">
-                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
-                </div>
+            
                 
             </form>
 
