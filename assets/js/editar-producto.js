@@ -11,7 +11,7 @@ const obtenerInformacion = () => {
 
 
     if (id == null) {
-        window.location.href = "/index.html";
+        window.location.href = "publicaciones.html";
     }
 
     const url = document.querySelector('[data-url]');
@@ -52,6 +52,6 @@ formulario.addEventListener('submit', (evento) => {
 
 
     service.actualizarProducto(url, categoria, nombreProducto, costo, descripcion, id).then(() => {
-        window.location.href = 'administracion.html';
+        window.location.href = 'publicaciones.html';
     })
 });

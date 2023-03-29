@@ -43,7 +43,7 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
 
 const eliminarProducto = (id) => {
 
-    return fetch(`http://localhost:3000/inmobiliaria${id}`, {
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
 
         method: 'DELETE'
     });
@@ -54,7 +54,7 @@ const eliminarProducto = (id) => {
 //detalle del producto
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/inmobiliaria${id}`).then((respuesta) => respuesta.json()
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`).then((respuesta) => respuesta.json()
 
     );
 };
@@ -64,7 +64,7 @@ const detalleProducto = (id) => {
 //actualizar producto
 
 const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
-    return fetch(`http://localhost:3000/inmobiliaria${id}`, {
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
         method: 'PUT',
 
         headers: {

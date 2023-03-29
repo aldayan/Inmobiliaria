@@ -15,6 +15,6 @@ formulario.addEventListener('submit', (evento) => {
 
 
     service.crearProducto(url, categoria, nombreProducto, costo, descripcion).then(() => {
-        window.location.href = '../index.php';
+        window.location.href = 'publicaciones.html';
     }).catch(err => console.log(err))
 });

@@ -47,8 +47,8 @@ if(!isset($usuario)){
             <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link " href="administracion.php">Usuarios Registrados</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="agregar.php">Agregar Inmuebles</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="publicaciones.php">Ver todas las publicaciones</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="agregar.html">Agregar Inmuebles</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="publicaciones.html">Ver todas las publicaciones</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="../chat/chat.php">Chat</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li></ul>
             </div>
@@ -66,13 +66,13 @@ if(!isset($usuario)){
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="agregar.php">
+                            <a class="nav-link" href="agregar.html">
                                 <span data-feather="file"></span>Agregar Inmuebles
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="publicaciones.php">
+                            <a class="nav-link" href="publicaciones.html">
                                 <span data-feather="bar-chart-2"></span>Ver todas las publicaciones
                             </a>
                         </li>

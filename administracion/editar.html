@@ -1,16 +1,4 @@
-<?php
-session_start();
-include("../dba/db.php");
 
-$usuario = $_SESSION['correo'];
-if(!isset($usuario)){
-
-    header("location:../login/login.php");
-
-}
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +15,7 @@ if(!isset($usuario)){
     
     <title>Administracion | ADDE CAPITAL. S.A.</title>
 
-    <link rel="icon" href="../assets/img/">
+    <link rel="icon" href="../assets/img/logo.jpg">
 
     <script src="https://kit.fontawesome.com/0f48d8c00d.js"></script>
 </head>
@@ -47,8 +35,8 @@ if(!isset($usuario)){
             <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link " href="administracion.php">Usuarios Registrados</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="agregar.php">Agregar Inmuebles</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="publicaciones.php">Ver todas las publicaciones</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="agregar.html">Agregar Inmuebles</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="publicaciones.html">Ver todas las publicaciones</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="../chat/chat.php">Chat</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li>
                 </ul>
@@ -67,13 +55,13 @@ if(!isset($usuario)){
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="agregar.php">
+                            <a class="nav-link" href="agregar.html">
                                 <span data-feather="file"></span>Agregar Inmuebles
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="publicaciones.php">
+                            <a class="nav-link" href="publicaciones.html">
                                 <span data-feather="bar-chart-2"></span>Ver todas las publicaciones
                             </a>
                         </li>
@@ -96,26 +84,27 @@ if(!isset($usuario)){
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Agregar Inmueble</h1>
+                    <h1 class="h2">Editando Descripcion del inmueble</h1>
                 </div>
         
                 <section class="agregar">
                 <div class="container">
                     <div class="agregados">
-                 
-                        <form class="agregar-form" data-form-agregar>
+                   
+
+                        <form class="agregar-form" data-form-editar>
                             <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required data-url>
                             <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
                             <option class="opciones">Selecciona</option>
                             <option class="opciones" value="1">Deportivas</option>
                             <option class="opciones" value="2">Harley Davison</option>
                             <option class="opciones" value="3">MotoCross</option>
-            
+                            <option class="opciones" value="4">Mas Veloces</option>
                             </select>
                             <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre Del Producto" required data-nombre>
                             <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo Del Producto" required data-costo>
                             <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion Del producto" required data-descripcion></textarea>
-                            <button type="submit " id="agregar" class="agregar-boton">Agregar Producto</button>
+                            <button type="submit " id="agregar" class="agregar-boton">Editar Producto</button>
                         </form>
                     </div>
                 </div>
@@ -125,7 +114,7 @@ if(!isset($usuario)){
         </div>
     </div>
 
-    <script type="module" src="../assets/js/agregar-producto.js">
+    <script type="module" src="../assets/js/editar-producto.js">
     </script>
 </body>
 
