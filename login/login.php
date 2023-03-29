@@ -33,10 +33,9 @@ include("../dba/db.php");
                     <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
-                
-                    
-                   
-                </ul>
+                    <li class="enlaces-menu"><a href="#inicio">Registrarse</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Login</a></li>
+
             </nav>
 
         </div>
@@ -54,7 +53,7 @@ include("../dba/db.php");
                 <img src="../assets/img/logo2.jpg" id="icon" alt="User Icon" />
             </div>
         
-            <form class="wrapper fadeInDown" action="../conexion db/validar.php" method="POST">
+            <form class="wrapper fadeInDown" action="../dba/validacion.php" method="POST">
                 <input type="text" id="nombre" class="fadeIn second" name="nombre" placeholder="Usuario" required autofocus>
                 <input type="password" id="contraseña" class="fadeIn third" name="contraseña" placeholder="Contraseña" required>
                 <input type="submit" class="fadeIn fourth" value="Iniciar">

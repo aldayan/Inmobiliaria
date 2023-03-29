@@ -40,8 +40,9 @@ include("../dba/db.php");
                     <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Contactos</a></li>
                     <li class="enlaces-menu"><a href="#inicio">Login</a></li>
+                    <li class="enlaces-menu"><a href="#inicio">Registrase</a></li>
+
                 </ul>
             </nav>
 
@@ -51,10 +52,10 @@ include("../dba/db.php");
     <main class="container">
         <div class="row mx-0 mx-md-5 mb-5 ">
 
-            <form class="border mt-5  p-5 rounded  shadow col-12" action="Formulario.php" method="post">
+            <form class="border mt-5  p-5 rounded  shadow col-12" action="../assets/php/registrar/registrar-usuarios.php" method="POST">
 
                 <div class="py-5 text-center">
-                    <img class="d-block mx-auto mb-4" src="../assets/img/horizontal/oscuro/small.png" alt="">
+                    <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
@@ -62,7 +63,7 @@ include("../dba/db.php");
 
                 <div class="Form my-4">
                     <label for="First_name" class="form-label"><b>Nombre:</b></label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" value="" required="">
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre"  required>
                     <div class="invalid-feedback">
                         Ingrese el nombre.
                     </div>
@@ -70,7 +71,7 @@ include("../dba/db.php");
 
                 <div class="Form  my-4">
                     <label for="Last_name" class="form-label"><b>Apellido:</b></label>
-                    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" value="" required="">
+                    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido"  required>
                     <div class="invalid-feedback">
                         Ingrese el Apellido.
                     </div>
@@ -78,7 +79,7 @@ include("../dba/db.php");
 
                 <div class="Form  my-4">
                     <label for="cedula" class="form-label"><b>Cédula:</b></label>
-                    <input type="number" class="form-control" id="cedula" name="cedula" placeholder="Cedula" value="" required="">
+                    <input type="number" class="form-control" id="cedula" name="cedula" placeholder="Cedula"  required>
                     <div class="invalid-feedback">
                         Ingrese la Cédula.
                     </div>
@@ -87,7 +88,7 @@ include("../dba/db.php");
         
                 <div class="Form  my-4">
                     <label for="Cellphone" class="form-label"><b>Teléfono:</b></label>
-                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="809-000-000" value="" required="">
+                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="809-000-000"  required>
                     <div class="invalid-feedback">
                         Ingrese un Teléfono.
                     </div>
@@ -95,7 +96,7 @@ include("../dba/db.php");
 
                 <div class="Form  my-4">
                     <label for="Adress" class="form-label"><b>Dirección:</b></label>
-                    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección" value="" required="">
+                    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección"  required>
                     <div class="invalid-feedback">
                         Ingrese una Dirección.
                     </div>
@@ -103,7 +104,7 @@ include("../dba/db.php");
 
                 <div class="Form   my-4">
                     <label for="Location" class="form-label"><b>¿En qué zona del país reside?</b></label>
-                    <input type="text" class="form-control" id="donde_vives" name="donde_vives" placeholder="R.D santo domingo" value="" required="">
+                    <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="R.D santo domingo"  required>
                     <div class="invalid-feedback">
                         Ingrese una Residencia.
                     </div>
@@ -111,20 +112,21 @@ include("../dba/db.php");
 
                 <div class="Form">
                     <label for="Imail" class="form-label"><b>Correo:</b></label>
-                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Email@gmail.com" value="" required="">
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Email@gmail.com"  required>
                     <div class="invalid-feedback">
                         Ingrese un correo.
                     </div>
+                    
                  </div>
                 
                 <div class="Form my-4">
                     <label for="contraseña" class="form-label"><b>Contraseña:</b></label>
-                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña" value="" required>
+                    <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña"  required>
                     <div class="invalid-feedback">
                        Ingrese su contraseña
                     </div>
                     <hr class="my-4">
-                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Enviar y continuar</h5></button>
+                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
                 </div>
                 
             </form>

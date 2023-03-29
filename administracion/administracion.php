@@ -14,13 +14,13 @@ include("../dba/db.php");
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
     <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" type=" text/css" href="../assets/css/style pasantes activos.css" media="screen">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/" media="screen">
     <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
     
-    <title>Pasantes activos</title>
+    <title>Administracion | ADDE CAPITAL. S.A.</title>
 
+    <link rel="icon" href="../assets/img/">
 
-    <link rel="icon" href="../assets/img/social-icon.ico">
     <script src="https://kit.fontawesome.com/0f48d8c00d.js"></script>
 </head>
 
@@ -29,7 +29,7 @@ include("../dba/db.php");
     <nav class="navbar navbar-dark bg-dark  fixed-top ">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <strong>AILogic</strong>
+                <strong>ADDE CAPITAL. S.A.</strong>
             </a>
 
             <button type="button" class="navbar-toggler d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
@@ -38,16 +38,11 @@ include("../dba/db.php");
 
             <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link " href="pasantes activos.php"> Pasantes activos </a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="informacion de evaluaciones pasantes.php"> Información de evaluaciones pasantes </a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="seguimiento de recursos.php"> Seguimiento de recursos </a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="recursos.html"> Recursos </a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="asignaciones administrador.php"> Asignaciones</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="grupos administrador.php"> Grupos </a> </li>
-                <li class="nav-item"> <a class="nav-link " href="../pasantes/pasantes.php"> Pasantes </a> </li>
-                <li class="nav-item"> <a class="nav-link " href="chat/chatpage.php">Chat</a> </li>
-                <li class="nav-item"> <a class="nav-link " href="enviar correo.php"> Enviar correo </a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="../logins/cerrar.php"> Cerrar sesión </a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="pasantes activos.php">Usuarios Registrados</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="informacion de evaluaciones pasantes.php">Agregar Inmuebles</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="seguimiento de recursos.php">Ver todas las publicaciones</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="chat/chatpage.php">Chat</a> </li>
+                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li>
                 </ul>
             </div>
         </div>
@@ -59,59 +54,31 @@ include("../dba/db.php");
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pasantes activos.php">
-                                <span data-feather="home">Pasantes activos</span>
+                            <a class="nav-link active" aria-current="page" href="administracion.php">
+                                <span data-feather="home">Usuarios Registrados</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="informacion de evaluaciones pasantes.php">
-                                <span data-feather="file"></span>Información de evaluaciones pasantes
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="seguimiento de recursos.php">
-                                <span data-feather="bar-chart-2"></span> Seguimiento de recursos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="recursos.php">
-                                <span data-feather="layers"></span>Recursos
-                            </a>
-                        </li>
-
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="asignaciones administrador.php">
-                                <span data-feather="layers"></span>Asignaciones
+                            <a class="nav-link" href="agregar.php">
+                                <span data-feather="file"></span>Agregar Inmuebles
                             </a>
                         </li>
 
                         <li class="nav-item">
-                        <a class="nav-link" href="grupos administrador.php">
-                            <span data-feather="layers"></span>Grupos
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pasantes/pasantes.php">
-                            <span data-feather="layers"></span>Pasantes
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="chat/chatpage.php">
+                            <a class="nav-link" href="publicaciones.php">
+                                <span data-feather="bar-chart-2"></span>Ver todas las publicaciones
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="chat/chatpage.php">
                             <span data-feather="layers"></span>Chat
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="enviar correo.php">
-                            <span data-feather="layers"></span>Enviar correo
-                        </a>
-                    </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="../logins/cerrar.php">
+                            <a class="nav-link" href="../login/login.php">
                                 <span data-feather="layers"></span>Cerrar sesión
                             </a>
                         </li>
@@ -121,7 +88,7 @@ include("../dba/db.php");
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Registrar pasante</h1>
+                    <h1 class="h2">Registrar admistrador</h1>
 
                     <p>
                         <a href="registrar pasante.php" class="btn btn-primary my-2">
@@ -131,7 +98,7 @@ include("../dba/db.php");
                         </a>
                     </p>
                 </div>
-                <h2>Pasantes activos</h2>
+                <h2>Usuarios registrados</h2>
                 <div class="table-responsive">
                     <table class="table table-striped table-sm" id="tablax">
                         <thead>
@@ -140,19 +107,19 @@ include("../dba/db.php");
                                 <th scope="col">Nombre</th>
                                 <th scope="col">Apellido</th>
                                 <th scope="col">Cédula</th>
-                                <th scope="col">Universidad</th>
                                 <th scope="col">Teléfono</th>
                                 <th scope="col">Dirección</th>
                                 <th scope="col">Dónde vives</th>
                                 <th scope="col">Correo</th>
+                                <th scope="col">contraseña</th>
                                 <th scope="col">Actualizar</th>
                                 <th scope="col">Eliminar</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            $conexion = mysqli_connect("localhost:8111", "root", "", "pasantes alpha db");
-                            $sql = "SELECT Id_formulario,Nombre,Apellido,Cedula,Universidad,Telefono,Direccion,Donde_Vives,Correo FROM formulario";
+                            $conexion = mysqli_connect("localhost:8111", "root", "", "inmobiliaria");
+                            $sql = "SELECT id,nombre,apellido,cedula,telefono,direccion,ubicacion,Correo,contraseña FROM formulario";
                             $resultado = mysqli_query($conexion, $sql);
                             while ($mostrar = mysqli_fetch_row($resultado)) {
                             ?>
@@ -172,12 +139,12 @@ include("../dba/db.php");
                                         nombre=<?php echo $mostrar['1'] ?> &
                                         apellido=<?php echo $mostrar['2'] ?> &
                                         cedula=<?php echo $mostrar['3'] ?> &
-                                        universidad=<?php echo $mostrar['4'] ?> &
-                                        telefono=<?php echo $mostrar['5'] ?> &
-                                        direccion=<?php echo $mostrar['6'] ?> &
-                                        donde_vives=<?php echo $mostrar['7'] ?> &
-                                        correo=<?php echo $mostrar['8'] ?> &
-                                                                    
+                                        telefono=<?php echo $mostrar['4'] ?> &
+                                        direccion=<?php echo $mostrar['5'] ?> &
+                                        donde_vives=<?php echo $mostrar['6'] ?> &
+                                        correo=<?php echo $mostrar['7'] ?> &
+                                        contraseña=<?php echo $mostrar['8'] ?> &   
+
                                     " button class="btn btn-edit"><i class="fas fa-edit"></i></a></button></td>
                                     <td><a href="../assets/php/borrar/eliminar pasantes activos.php? id=<?php echo $mostrar['0'] ?> " button class="btn btn-danger"><i class="fas fa-trash"></i></a></button></td>
                                 </tr>
