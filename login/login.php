@@ -13,6 +13,7 @@ include("../dba/db.php");
     <title>Login | ADDE CAPITAL. S.A.</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style-login.css">
+    
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -31,10 +32,10 @@ include("../dba/db.php");
             <nav class="lista-menu">
             <ul class="menu-enlaces">
                     <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Registrarse</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Login</a></li>
+                    <li class="enlaces-menu"><a href="../inmuebles/alquilar.php">Alquilar</a></li>
+                    <li class="enlaces-menu"><a href="../inmuebles/comprar.php">Comprar</a></li>
+                    <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li>
+                    <li class="enlaces-menu"><a href="login.php">Login</a></li>
 
             </nav>
 
@@ -43,8 +44,7 @@ include("../dba/db.php");
 
     <main class="desarrollo">
         <div class="container">
-            
-       
+        
 
     <div class="wrapper fadeInDown">
         <div id="formContent">
@@ -63,7 +63,7 @@ include("../dba/db.php");
     </div>
 
 
-    <section class="contactos " id="contactos ">
+    <section class="contactos" id="contactos ">
                 <div class="container ">
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
 

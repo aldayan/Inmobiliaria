@@ -13,7 +13,6 @@ include("./dba/db.php");
     <title>Inmobiliaria | ADDE CAPITAL. S.A. </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style-index.css" rel="stylesheet">
     <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
 </head>
@@ -24,15 +23,15 @@ include("./dba/db.php");
         <div class="container">
 
             <h1 class="titulo-menu">
-                <img src="assets/img/rueda.png" class="goma"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
+                <img src="assets/img/" class="logo"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
             </h1>
 
 
             <nav class="lista-menu">
             <ul class="menu-enlaces">
                     <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Alquilar</a></li>
-                    <li class="enlaces-menu"><a href="#inicio">Comprar</a></li>
+                    <li class="enlaces-menu"><a href="#">Alquilar</a></li>
+                    <li class="enlaces-menu"><a href="#">Comprar</a></li>
                     <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrar</a></li> 
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
                   
