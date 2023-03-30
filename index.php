@@ -23,7 +23,7 @@ include("./dba/db.php");
         <div class="container">
 
             <h1 class="titulo-menu">
-                <img src="assets/img/" class="logo"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
+              <a href="#" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 
@@ -32,11 +32,11 @@ include("./dba/db.php");
                     <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
                     <li class="enlaces-menu"><a href="#">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="#">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrar</a></li> 
+                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
                   
                 </ul>
-            </nav>
+            </nav>  
 
         </div>
     </header>
@@ -47,14 +47,17 @@ include("./dba/db.php");
             <section class="buscador-pizarra">
                 <div class="container">
 
+              
+                 
                     <div class="buscador-inmobiliaria">
-
-                    <input type="text" class="buscador" id="buscador" placeholder="¿Qué deseas buscar?">
-                     
+                   <i class="fas fa-search">
+                    <input type="text" class="buscador" id="buscador" placeholder="Buscar inmuebles para alquilar, compra, costo y localidad">
+                    </i>
                     </div>
 
                 </div>
             </section>
+
 
             <section class="zona-venta" id="ventas">
                 <div class="container">
@@ -64,10 +67,10 @@ include("./dba/db.php");
                         <a class="ver" href="./todo/verTodo.html">Ver todo</a>
                     </div>
 
-                    <div class="deportiva" data-deportiva>
+                    <div class="deportiva" data-deportiva> </div>
 
-
- <div class="caja-inmueble" style="background-image:url(${url}); background-position: center;">
+                    
+                    <div class="caja-inmueble" style="background-image:url(${url}); background-position: center;">
     <div class="caja-contenido" >
         <img src="./assets/img/logo2.jpg" alt="logo">
         <h3>${nombreProducto}</h3>
@@ -76,11 +79,7 @@ include("./dba/db.php");
         <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
     </div>
 </div>
-
-                    </div>
-
                 </div>
-
             </section>
 
 
@@ -92,9 +91,7 @@ include("./dba/db.php");
                         <a class="ver" href="./todo/verTodo.html">Ver todo</a>
                     </div>
 
-                    <div class="harley" data-harley>
-
-                    </div>
+                    <div class="harley" data-harley></div>
                      
                 </div>
             </section>
@@ -172,8 +169,8 @@ include("./dba/db.php");
 
 
    
-    <script type="module" src="./assets/js/index-producto.js">
-    </script>
+    <script type="module" src="./assets/js/index-producto.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
