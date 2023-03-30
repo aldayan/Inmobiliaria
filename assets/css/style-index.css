@@ -1,7 +1,9 @@
 body {
-    font-family: 'fuente';
-    width: auto;
-    color: white;
-    font-size: 25px;
-    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: blue;
+    font-size: 17px;
+    background: rgba(223, 6, 6, 0.822);
 }
