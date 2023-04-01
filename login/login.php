@@ -11,12 +11,8 @@ include("../dba/db.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | ADDE CAPITAL. S.A.</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style-login.css">
     <link rel="stylesheet" href="../assets/css/style-index.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="icon" href="../assets/img/logo2.jpg">
 
 </head>
@@ -25,7 +21,7 @@ include("../dba/db.php");
         <div class="container">
 
             <h1 class="titulo-menu">
-                <img src="assets/img/rueda.png" class="goma"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
+                <a href="#" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 
@@ -64,7 +60,8 @@ include("../dba/db.php");
 
 
     <section class="contactos" id="contactos ">
-                <div class="container ">
+                <div class="container">
+
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
 
                     <div class="informacion-contacto">
@@ -109,8 +106,8 @@ include("../dba/db.php");
         <p>Hecho por
             <a href="https://">Aldayan A. Avila Dotel </a>
         </p>
-        <a href=""><img src="./assets/img/linkedin.png " alt="logo de linkedin"></a>
-        <a href=""><img src="./assets/img/github.png " alt="logo de github"></a>
+        <a href=""></a>
+        <a href=""></a>
 
     </footer>
 

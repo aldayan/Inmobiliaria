@@ -50,16 +50,16 @@ include("./dba/db.php");
               
                  
                     <div class="buscador-inmobiliaria">
-                   <i class="fas fa-search">
-                    <input type="text" class="buscador" id="buscador" placeholder="Buscar inmuebles para alquilar, compra, costo y localidad">
-                    </i>
+               
+                    <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
+                   
                     </div>
 
                 </div>
             </section>
 
 
-            <section class="zona-venta" id="ventas">
+            <section class="zonas-ventas" id="ventas">
                 <div class="container">
 
                     <div class="zonas">
@@ -69,16 +69,6 @@ include("./dba/db.php");
 
                     <div class="deportiva" data-deportiva> </div>
 
-                    
-                    <div class="caja-inmueble" style="background-image:url(${url}); background-position: center;">
-    <div class="caja-contenido" >
-        <img src="./assets/img/logo2.jpg" alt="logo">
-        <h3>${nombreProducto}</h3>
-        <span class="costo" >$${costo}</span>
-        <hr>
-        <a href="decripcion/descripcion.html?id=${id}" class="enlace" >Ver producto</a>
-    </div>
-</div>
                 </div>
             </section>
 
@@ -97,22 +87,6 @@ include("./dba/db.php");
             </section>
 
 
-            <section class="MotoCross articulo" id="motocross">
-                <div class="container">
-                    <div class="marca">
-                        <h3 class="titulo-motocross ">MotoCross</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
-                    </div>
-
-                    <div class="motocross" data-motocross>
-
-
-
-
-                    </div>
-                </div>
-            </section>
-
 
 
             <section class="contactos " id="contactos ">
@@ -122,7 +96,7 @@ include("./dba/db.php");
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/ " class="img-contacto" alt="logo">
+                            <img src="./assets/img/logo2.jpg" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
@@ -134,7 +108,7 @@ include("./dba/db.php");
                             </ul>
                         </nav>
 
-                        <div class="contacto ">
+                        <div class="contacto">
 
                             <div class="titulos-contacto ">
                                 <h3 class=" contacto-subtexto ">Hablanos</h3>
@@ -144,7 +118,8 @@ include("./dba/db.php");
                                 <input class="contacto-input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                                 <input class="contacto-input" type="email" id="email" name="email" placeholder="E-mail" required>
                                 <input class="contacto-input" type="text" id="asunto" name="asunto" placeholder="Asunto" required>
-                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
+                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> 
+                                <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
                                 <br>
                                 <p class="alerta " id="alerta "></p>
                             </form>
@@ -162,8 +137,8 @@ include("./dba/db.php");
         <p>Hecho por
             <a href="https://">Aldayan A. Avila Dotel </a>
         </p>
-        <a href=""><img src="./assets/img/linkedin.png " alt="logo de linkedin"></a>
-        <a href=""><img src="./assets/img/github.png " alt="logo de github"></a>
+        <a href=""></a>
+        <a href=""></a>
 
     </footer>
 

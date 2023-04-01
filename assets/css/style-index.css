@@ -1,9 +1,11 @@
 body {
-    width: auto;
+    width: 100%;
+    margin-left: 0px;
     color: black;
     font-size: 20px;
     background: white;
     font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
    
 }
 
@@ -23,8 +25,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
-    border: solid 1px;
-    width: 91%;
     margin-left: 10px;
     
 }
@@ -72,20 +72,14 @@ body {
 .desarrollo .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: solid 1px;
     font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    background: url(../img/);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
-
-
-/*-----------------------------------*/
-
-             /*TITULOS*/
-
-/*-----------------------------------*/
-
-
 
 
 
@@ -101,35 +95,227 @@ body {
 .buscador-pizarra .container{
     display: flex;
     justify-content: center;
-    width: 1330px;
+    align-items: center;
     height: 500px;
 }
 
 .buscador{
-  width: 600px;
-  border: solid 2px;
+    display: flex;
+  width: 300px;
+  border: solid 1px;
   border-radius: 10px;
   height: 30px;
   text-align: left;
   font-size: 15px;
-  margin-left: 50px;
-  
+  margin-left: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
 }
 
 .buscador::placeholder{
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
     color: black;
 
 }
 
+/*-----------------------------------*/
+
+             /*TITULOS*/
+
+/*-----------------------------------*/
+
+
+.titulo-ventas,
+.titulo-alquiler,
+.titulo-contacto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    
+}
+
+
+/*-----------------------------------*/
+
+          /*ZONAS*/
+
+/*-----------------------------------*/
+
+
+.zonas-ventas .container, .zonas-alquiler .container{
+    display: flex;
+    height: 450px;
+   
+}
+
+.zonas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+
+
+/*---------------------------------------------*/
+
+
+/*CAJA DE ZONAS*/
+
+
+/*---------------------------------------------*/
+
+.caja-motos {
+    margin: 12px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 10px rgba(202, 195, 195, 0.404);
+    margin-left: 40px;
+}
+
+.caja-contenido {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.caja-contenido h3,
+.costo {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.costo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+hr {
+    width: 100%;
+    background: white;
+    margin: 20px;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.caja-motos:hover .caja-contenido {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------*/
+
+          /*CONTACTOS*/
+
+/*-----------------------------------*/
+
+.contactos .container {
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+.informacion-contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+.lista-contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+
+.lista-informacion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-info{
+    margin-bottom: 15px;
+}
+
+
+.preguntas{
+    font-size: 25px;
+}
+
+
+
+.contacto-form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+.contacto-input {
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+}
+
+.contacto-boton {
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
 
 
 
 /*-----------------------------------*/
 
-          /*ZONA EN VENTA*/
+            /*FOOTER*/
 
 /*-----------------------------------*/
 
+footer {
+    text-align: center;
+    padding: 40px;
+    
+}
 
+footer p:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+a img {
+    margin: 20px 0px;
+    background: white;
+    border-radius: 100px;
+}
