@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
+   
+    <link rel="stylesheet" type=" text/css" href="../assets/css/style-index.css" media="screen">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/style-registra.css" media="screen">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
     <link rel="icon" href="../assets/img/social-icon.ico">
@@ -23,7 +23,7 @@
         <div class="container">
 
             <h1 class="titulo-menu">
-                <img src="assets/img/rueda.png" class="goma"><a href="#" class="titulo-menu">ADDE CAPITAL. S.A.</a>
+              <a href="#" class="titulo-menu">INMOBILIARIA | ADDE CAPITAL. S.A.</a>
             </h1>
 
 
@@ -41,10 +41,11 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="row mx-0 mx-md-5 mb-5 ">
+    <main class="desarrollo">
+    <div class="container">
+            <div class="row mx-0 mx-md-5 mb-5 contenedor">
 
-            <form class="border mt-5  p-5 rounded  shadow col-12" action="../assets/php/registrar/registrar-usuario-login.php" method="POST">
+              <form class="formulario" action="../assets/php/registrar/registrar-usuario-login.php" method="POST">
 
                 <div class="py-5 text-center">
                     <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
@@ -57,18 +58,14 @@
                 <div class="Form">
                     <label for="Imail" class="form-label"><b>Correo:</b></label>
                     <input type="email" class="form-control" id="correo" name="correo" placeholder="Email@gmail.com"  required>
-                    <div class="invalid-feedback">
-                        Ingrese un correo.
-                    </div>
+
                     
                  </div>
                 
                 <div class="Form my-4">
                     <label for="contraseña" class="form-label"><b>Contraseña:</b></label>
                     <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="contraseña"  required>
-                    <div class="invalid-feedback">
-                       Ingrese su contraseña
-                    </div>
+                
                </div>
                    
                 <div class="Form my-4">
@@ -83,9 +80,9 @@
                     <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
                 </div>
                 
-            </form>
+               </form>
 
-
+            </div>
             
             <section class="contactos " id="contactos ">
                 <div class="container ">

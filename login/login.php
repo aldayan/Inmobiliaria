@@ -43,14 +43,14 @@ include("../dba/db.php");
         
 
     <div class="wrapper fadeInDown">
-        <div id="formContent">
+        <div class="formContent" id="formContent">
           
             <div class="fadeIn first py-5">
                 <img src="../assets/img/" id="icon" alt="User Icon" />
             </div>
         
             <form class="wrapper fadeInDown" action="../assets/php/validaciones/validacion-login.php" method="POST">
-                <input type="text" id="correo" class="fadeIn second" name="correo" placeholder="Ingrese su correo electronico" required autofocus>
+                <input type="text" id="correo" class="fadeIn second" name="correo" placeholder="Correo electronico" required autofocus>
                 <input type="password" id="contraseña" class="fadeIn third" name="contraseña" placeholder="Contraseña" required>
                 <input type="submit" class="fadeIn fourth" value="Iniciar">
             </form>

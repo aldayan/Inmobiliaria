@@ -1,6 +1,4 @@
 
-
-
 /* STRUCTURE */
 
 .wrapper {
@@ -8,10 +6,13 @@
   align-items: center;
   flex-direction: column; 
   justify-content: center;
-  width: 100%;
-  min-height: 100%;
+  
   padding: 20px;
+
+  
 }
+
+
 
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -174,7 +175,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 .fadeIn.second {
   -webkit-animation-delay: 0.6s;
   -moz-animation-delay: 0.6s;
-  animation-delay: 0.6s;
+  animation-delay: 1s;
 }
 .second, .third{
   display: flex;
@@ -183,25 +184,23 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   width: 300px;
   margin-bottom: 30px;
   height: 50px;
-  margin-right: 35px;
   border-radius: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
- 
 }
 
 .fadeIn.third {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
-  animation-delay: 0.8s;
+  animation-delay: 1.8s;
 }
 
 .fadeIn.fourth {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
-  animation-delay: 1s;
+  animation-delay: 2.6s;
   display: flex;
-  margin-right: 55.5px;
+  justify-content: center;
   border-radius: 50px;
 }
 

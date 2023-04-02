@@ -95,17 +95,11 @@ if(!isset($usuario)){
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Registrar admistrador</h1>
-
-                    <p>
-                        <a href="registrar pasante.php" class="btn btn-primary my-2">
-                            <font style="vertical-align: inherit;">
-                                <font style=" vertical-align: inherit;">Registrar</font>
-                            </font>
-                        </a>
-                    </p>
-                </div>
                 <h2>Usuarios registrados</h2>
+
+                
+                </div>
+            
                 <div class="table-responsive">
                     <table class="table table-striped table-sm" id="tablax">
                         <thead>
@@ -172,7 +166,7 @@ if(!isset($usuario)){
                     processing: "Tratamiento en curso...",
                     search: "Buscar&nbsp;:",
                     lengthMenu: "Agrupar de _MENU_ usuarios",
-                    info: "Mostrando del item _START_ al _END_ de un total de _TOTAL_ usuarios",
+                    info: "Mostrando del usuario _START_ al _END_ de un total de _TOTAL_ usuarios",
                     infoEmpty: "No existen datos.",
                     infoFiltered: "(filtrado de _MAX_ elementos en total)",
                     infoPostFix: "",

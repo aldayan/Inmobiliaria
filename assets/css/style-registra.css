@@ -1,11 +1,77 @@
+
+body {
+  
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+/*-----------------------------------*/
+
+        /*CONTENEDRO DE FORMULARIO*/
+
+/*-----------------------------------*/
+
+.contenedor{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin: 50px;
+
+}
+
+
 /*-----------------------------------*/
 
              /*FOMULARIO*/
 
 /*-----------------------------------*/
 
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.mb-3, .text-justify{
+    padding: 20px;
+    margin: 0px;  
+    
+   
+}
+.text-justify{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+
 .formulario{
     display: flex;
     flex-direction: column;
+    border: solid 1px rgba(238, 26, 26, 0.979);
+    padding: 40px;
+    width: 60%;
+   box-shadow: 0px 0px 20px 10px rgba(235, 191, 191, 0.979);
+}
+.Form{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+.form-label{
+    margin-bottom: 20px;
+}
+.form-control{
+    margin-bottom: 20px;
+    padding: 20px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px 0px 100px 50px;
+}
+hr{
     border: solid 1px;
+    margin-left:0px;
+}
+.btn {
+    border-radius: 100px 25px 100px 25px;
 }

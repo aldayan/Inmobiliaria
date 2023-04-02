@@ -10,8 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+   
     <link rel="stylesheet" href="../assets/css/style-index.css">
-    <link rel="stylesheet" href="../assets/css/style-registrar.css">
+    <link rel="stylesheet" href="../assets/css/style-registra.css">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
     <link rel="icon" href="../assets/img/logo2.jpg">
@@ -42,64 +43,58 @@
     </header>
 
     <main class="desarrollo">
-        <div class="row mx-0 mx-md-5 mb-5 ">
+<div class="container">
+    
+
+        <div class="row mx-0 mx-md-5 mb-5 contenedor">
 
             <form class="formulario" action="../assets/php/registrar/registrar-usuarios.php" method="POST">
 
-                <div class="py-5 text-center">
-                    <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
+                <div class="imagen">
+                    <img class="d-block mx-auto mb-4" src="../assets/img/logo2.jpg" alt="">
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
-                <p class="text-justify">Completando este formulario de registro en la pagina web, podra tener su propia cuenta y publicar sus inmuebles en ventas o en alquiler</p>
+                <p class="text-justify">Completando este formulario de registro de cuenta, podra tener acceso y permisos para publicar sus inmuebles en ventas o en alquiler.</p>
 
                 <div class="Form my-4">
                     <label for="First_name" class="form-label"><b>Nombre:</b></label>
                     <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre"  required>
-                    <div class="invalid-feedback">
-                        Ingrese el nombre.
-                    </div>
+                   
+                  
                 </div>
 
                 <div class="Form  my-4">
                     <label for="Last_name" class="form-label"><b>Apellido:</b></label>
                     <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido"  required>
-                    <div class="invalid-feedback">
-                        Ingrese el Apellido.
-                    </div>
+                  
                 </div>
 
                 <div class="Form  my-4">
                     <label for="cedula" class="form-label"><b>Cédula:</b></label>
                     <input type="number" class="form-control" id="cedula" name="cedula" placeholder="Cedula"  required>
-                    <div class="invalid-feedback">
-                        Ingrese la Cédula.
-                    </div>
+                   
                 </div>
 
         
                 <div class="Form  my-4">
                     <label for="Cellphone" class="form-label"><b>Teléfono:</b></label>
                     <input type="number" class="form-control" id="telefono" name="telefono" placeholder="809-000-000"  required>
-                    <div class="invalid-feedback">
-                        Ingrese un Teléfono.
-                    </div>
+                   
+                   
                 </div>
 
                 <div class="Form  my-4">
                     <label for="Adress" class="form-label"><b>Dirección:</b></label>
                     <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección"  required>
-                    <div class="invalid-feedback">
-                        Ingrese una Dirección.
-                    </div>
+                   
+                   
                 </div>
 
                 <div class="Form   my-4">
                     <label for="Location" class="form-label"><b>¿En qué zona del país reside?</b></label>
                     <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="R.D santo domingo"  required>
-                    <div class="invalid-feedback">
-                        Ingrese una Residencia.
-                    </div>
+                
                     <hr class="my-4">
                     <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Enviar y continuar</h5></button>
                 
@@ -108,7 +103,7 @@
             
                 
             </form>
-
+            </div>
 
             
             <section class="contactos " id="contactos ">
@@ -140,7 +135,8 @@
                                 <input class="contacto-input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                                 <input class="contacto-input" type="email" id="email" name="email" placeholder="E-mail" required>
                                 <input class="contacto-input" type="text" id="asunto" name="asunto" placeholder="Asunto" required>
-                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> <button type="submit " id="enviar " class="contacto-boton ">Enviar mensaje</button>
+                                <textarea class="contacto-input" rows="5" type="text" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea> 
+                                <button type="submit " id="enviar " class="contacto-boton">Enviar mensaje</button>
                                 <br>
                                 <p class="alerta " id="alerta "></p>
                             </form>
@@ -151,7 +147,7 @@
             </section>
 
     
-        </div>
+            </div>
     </main>
 
 
