@@ -30,8 +30,8 @@ include("./dba/db.php");
             <nav class="lista-menu">
             <ul class="menu-enlaces">
                     <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
-                    <li class="enlaces-menu"><a href="#">Alquilar</a></li>
-                    <li class="enlaces-menu"><a href="#">Comprar</a></li>
+                    <li class="enlaces-menu"><a href="./inmuebles/alquilar.php">Alquilar</a></li>
+                    <li class="enlaces-menu"><a href="./inmuebles/comprar.php">Comprar</a></li>
                     <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
                   
@@ -64,7 +64,7 @@ include("./dba/db.php");
 
                     <div class="zonas">
                         <h3 class="titulo-ventas">Zonas en venta</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+                        <a class="ver" href="./inmuebles/comprar.php">Ver todo</a>
                     </div>
 
                     <div class="deportiva" data-deportiva> </div>
@@ -78,7 +78,7 @@ include("./dba/db.php");
 
                     <div class="zonas">
                         <h3 class="titulo-alquiler">Zonas de alquiler</h3>
-                        <a class="ver" href="./todo/verTodo.html">Ver todo</a>
+                        <a class="ver" href="./inmuebles/alquilar.php">Ver todo</a>
                     </div>
 
                     <div class="harley" data-harley></div>

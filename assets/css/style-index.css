@@ -100,17 +100,16 @@ body {
 }
 
 .buscador{
-    display: flex;
+  display: flex;
   width: 300px;
   border: solid 1px;
   border-radius: 50px 0px 100px 50px;
   text-align: left;
   font-size: 15px;
-  margin-left: 35px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   padding: 10px;
-  border-radius: 50px;
+  
 }
 
 .buscador::placeholder{
