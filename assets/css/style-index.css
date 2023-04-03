@@ -189,6 +189,7 @@ body {
     opacity: 0;
     transition: .5s;
     border-radius: 10px;
+    margin-left: 500px;
 }
 
 .caja-contenido h3,
