@@ -54,4 +54,4 @@ formulario.addEventListener('submit', (evento) => {
     service.actualizarProducto(url, categoria, nombreProducto, costo, descripcion, id).then(() => {
         window.location.href = 'publicaciones.html';
     })
-});
+}); 

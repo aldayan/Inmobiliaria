@@ -23,7 +23,7 @@
         <div class="container">
 
             <h1 class="titulo-menu">
-              <a href="#" class="titulo-menu">INMOBILIARIA | ADDE CAPITAL. S.A.</a>
+              <a href="../index.php" class="titulo-menu">INMOBILIARIA | ADDE CAPITAL. S.A.</a>
             </h1>
 
 

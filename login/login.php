@@ -42,7 +42,7 @@ include("../dba/db.php");
         <div class="container">
         
 
-    <div class="wrapper fadeInDown">
+       <div class="wrapper fadeInDown ">
         <div class="formContent" id="formContent">
           
             <div class="fadeIn first py-5">
@@ -56,7 +56,7 @@ include("../dba/db.php");
             </form>
 
         </div>
-    </div>
+       </div>
 
 
     <section class="contactos" id="contactos ">
