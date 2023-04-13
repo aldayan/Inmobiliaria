@@ -22,10 +22,10 @@ if(!isset($usuario)){
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
     <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" type=" text/css" href="../assets/css/" media="screen">
+    <link rel="stylesheet" type=" text/css" href="../assets/css/style-administracion.css" media="screen">
     <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
     
-    <title>Administracion | ADDE CAPITAL. S.A.</title>
+    <title  >Administracion | ADDE CAPITAL. S.A.</title>
 
     <link rel="icon" href="../assets/img/">
 
@@ -37,7 +37,7 @@ if(!isset($usuario)){
     <nav class="navbar navbar-dark bg-dark  fixed-top ">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <strong>ADDE CAPITAL. S.A.</strong>
+                <strong class="titulo">INMOBILIARIA - ADDE CAPITAL. S.A.</strong>
             </a>
 
             <button type="button" class="navbar-toggler d-md-none" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
@@ -95,7 +95,7 @@ if(!isset($usuario)){
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h2>Usuarios registrados</h2>
+                <h2 class="h2" >Usuarios registrados</h2>
 
                 
                 </div>

@@ -1,0 +1,86 @@
+
+/*-----------------------------------*/
+
+        /*  ADMINISTRACION  */
+
+/*-----------------------------------*/
+
+.nav-item{
+    margin-top: 5px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 18px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+/*-----------------------------------*/
+
+        /*TITULOS*/
+
+/*-----------------------------------*/
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 35px;
+    margin: 20px;
+}
+
+
+/*-----------------------------------*/
+
+             /*ACTIVOS*/
+
+/*-----------------------------------*/
+
+
+
+
+/*-----------------------------------*/
+
+             /*AGREGAR*/
+
+/*-----------------------------------*/
+
+
+.agregar-form{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+ 
+  
+}
+
+.agregar-input{
+    display: flex;
+    margin: 15px;
+     flex-direction: column;
+    width: 500px;
+margin-left: 250px;
+border-radius: 50px 0px 100px 50px;
+padding: 15px;
+font-size: 17px;
+}
+
+
+.agregar-boton{
+    border-radius: 100px 25px 100px 25px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
