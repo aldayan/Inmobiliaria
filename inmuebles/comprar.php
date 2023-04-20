@@ -58,7 +58,7 @@ include("../dba/db.php");
                     </div>
 
                 </div>
-            </section>W
+            </section>
 
 
             <section class="zonas-ventas" id="ventas">

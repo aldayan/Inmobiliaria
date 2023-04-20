@@ -44,7 +44,7 @@ include("../dba/db.php");
         
 
        <div class="wrapper fadeInDown ">
-        <div class="formContent" id="formContent">
+          <div class="formContent" id="formContent">
           
             <div class="fadeIn first py-5">
                 <img src="../assets/img/" id="icon" alt="User Icon" />

@@ -70,6 +70,17 @@ include("./dba/db.php");
 
                     <div class="deportiva" data-deportiva> </div>
 
+
+    <div class="caja-inmobiliaria articulo" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
+    <div class="caja-contenido" >
+        <h3>${nombreProducto}</h3>
+        <p class="costo" >$${costo}</p>
+        <hr>
+        <a href="decripcion/?id=${id}" class="enlace">Ver inmueble</a>
+    </div>
+    </div>
+
+
                 </div>
             </section>
 

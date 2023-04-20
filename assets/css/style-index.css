@@ -13,6 +13,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: rgb(141, 84, 9);
+    
    
 
 }
@@ -34,7 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
-    background: rgba(141, 84, 9, 0.192);
+    background: rgba(240, 203, 152, 0.582);
    
    
 }
@@ -70,6 +71,7 @@ body {
 .titulo-menu, a{
     text-decoration: none;
     color: rgb(141, 84, 9);
+    
 }
 
 
@@ -93,7 +95,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     
     
-
+    
 }
 
 
@@ -111,11 +113,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-
+    height: 300px;
+    background: rgba(141, 84, 9, 0.192);
 }
 
 .buscador{
+ margin-top: 50px;
   display: flex;
   width: 300px;
   border-radius: 50px 0px 100px 50px;
@@ -125,6 +128,7 @@ body {
   font-style: oblique;
   padding: 10px;
   border: solid 2px rgb(141, 84, 9);
+  color: rgb(141, 84, 9);
 }
 
 .buscador::placeholder{
@@ -164,7 +168,7 @@ body {
 .zonas-ventas .container, .zonas-alquiler .container{
     display: flex;
     height: 450px;
-    
+    background: rgba(141, 84, 9, 0.192);
 }
 
 .zonas{
@@ -184,7 +188,7 @@ body {
 
 /*---------------------------------------------*/
 
-.caja-motos {
+.caja-inmobiliaria {
     margin: 12px;
     width: 200px;
     height: 250px;
@@ -234,7 +238,7 @@ hr {
     font-size: 25px;
 }
 
-.caja-motos:hover .caja-contenido {
+.caja-inmobiliaria:hover .caja-contenido {
     opacity: 1;
     cursor: pointer;
 }
@@ -250,7 +254,7 @@ hr {
     display: flex;
     text-align: center;
     padding-top: 30px;
-    background: rgba(99, 92, 92, 0.144);
+    background: rgba(240, 203, 152, 0.582);
 }
 .informacion-contacto{
     display: flex;
@@ -312,7 +316,7 @@ flex-direction: column;
 }
 
 .contacto-boton {
-    border: solid 1px rgb(141, 84, 9);
+    border: solid 2px rgb(141, 84, 9);
     border-radius: 100px 25px 100px 25px;
     background-color: rgb(141, 84, 9);
     color: white;
@@ -332,9 +336,11 @@ flex-direction: column;
 /*-----------------------------------*/
 
 footer {
+
     text-align: center;
-    padding: 40px;
-    background: rgba(99, 92, 92, 0.144);
+    padding: 10px;
+    background: rgba(240, 203, 152, 0.582);
+   margin-bottom: -10px;
     
 }
 
@@ -344,7 +350,6 @@ footer p:hover {
 }
 
 a img {
-    margin: 20px 0px;
     background: white;
     border-radius: 100px;
 }

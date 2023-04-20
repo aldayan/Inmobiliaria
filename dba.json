@@ -1,12 +1,3 @@
 {
-  "inmobiliaria": [
-    {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_OLZ5WhKoBaBkSVhXUfeIZuv1gwliDa_4A&usqp=CAU",
-      "categoria": "1",
-      "nombreProducto": "aldayan",
-      "costo": "6",
-      "descripcion": "sdsds",
-      "id": 1
-    }
-  ]
+  "inmobiliaria": []
 }
