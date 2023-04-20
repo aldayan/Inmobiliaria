@@ -1,12 +1,20 @@
 body {
     width: 100%;
     margin-left: 0px;
-    color: black;
+  
     font-size: 20px;
     background: white;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
+
+    background: url(../img/fondo5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(141, 84, 9);
    
+
 }
 
 
@@ -21,23 +29,28 @@ body {
 
 
 .menu .container{
+    margin-top:-10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
-    margin-left: 10px;
-    
+    background: rgba(141, 84, 9, 0.192);
+   
+   
 }
 
 .titulo-menu{
     width: 20%;
     font-size: 22px;
+    
+   
 }
 
 
 .menu-enlaces{
     display: flex;
     justify-content: space-between;
+    
     
 }
 
@@ -47,12 +60,16 @@ body {
     justify-content: space-between;
     flex-direction: column;
     text-decoration: none;
+ 
+
+
+    
     
 }
 
 .titulo-menu, a{
     text-decoration: none;
-   
+    color: rgb(141, 84, 9);
 }
 
 
@@ -74,11 +91,9 @@ body {
     flex-direction: column;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
-    background: url(../img/);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+    
+    
+
 }
 
 
@@ -97,24 +112,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 500px;
+
 }
 
 .buscador{
   display: flex;
   width: 300px;
-  border: solid 1px;
   border-radius: 50px 0px 100px 50px;
   text-align: left;
   font-size: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   padding: 10px;
-  
+  border: solid 2px rgb(141, 84, 9);
 }
 
 .buscador::placeholder{
     font-size: 16px;
-    color: black;
+    color: rgb(141, 84, 9);
+
 
 }
 
@@ -134,6 +150,7 @@ body {
     font-size: 35px;
     margin: 10px;
     
+    
 }
 
 
@@ -147,7 +164,7 @@ body {
 .zonas-ventas .container, .zonas-alquiler .container{
     display: flex;
     height: 450px;
-   
+    
 }
 
 .zonas{
@@ -233,6 +250,7 @@ hr {
     display: flex;
     text-align: center;
     padding-top: 30px;
+    background: rgba(99, 92, 92, 0.144);
 }
 .informacion-contacto{
     display: flex;
@@ -264,6 +282,7 @@ hr {
 
 .preguntas{
     font-size: 25px;
+    
 }
 
 
@@ -282,15 +301,20 @@ flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
     border-radius: 50px 0px 100px 50px;
+    border: solid 2px rgb(141, 84, 9);
     
-   
 }
 
 
+.contacto-input::placeholder{
+    color: rgb(141, 84, 9);
+
+}
+
 .contacto-boton {
-    border: solid 1px;
+    border: solid 1px rgb(141, 84, 9);
     border-radius: 100px 25px 100px 25px;
-    background-color: black;
+    background-color: rgb(141, 84, 9);
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -310,6 +334,7 @@ flex-direction: column;
 footer {
     text-align: center;
     padding: 40px;
+    background: rgba(99, 92, 92, 0.144);
     
 }
 

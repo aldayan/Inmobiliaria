@@ -30,8 +30,9 @@ include("../dba/db.php");
                     <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
                     <li class="enlaces-menu"><a href="../inmuebles/alquilar.php">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="../inmuebles/comprar.php">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li>
                     <li class="enlaces-menu"><a href="login.php">Login</a></li>
+                    <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li>
+                  
 
             </nav>
 

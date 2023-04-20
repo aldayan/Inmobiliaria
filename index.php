@@ -31,9 +31,10 @@ include("./dba/db.php");
             <ul class="menu-enlaces">
                     <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
                     <li class="enlaces-menu"><a href="./inmuebles/alquilar.php">Alquilar</a></li>
-                    <li class="enlaces-menu"><a href="./inmuebles/comprar.php">Comprar</a></li>
-                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
+                    <li class="enlaces-menu"><a href="./inmuebles/comprar.php">Comprar</a></li> 
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
+                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
+                    
                   
                 </ul>
             </nav>  

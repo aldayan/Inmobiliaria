@@ -32,8 +32,9 @@
                     <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
                     <li class="enlaces-menu"><a href="../inmuebles/alquilar.php">Alquilar</a></li>
                     <li class="enlaces-menu"><a href="../inmuebles/comprar.php">Comprar</a></li>
+                    <li class="enlaces-menu"><a href="../login/login.php">Login</a></li> 
                     <li class="enlaces-menu"><a href="registrar.php">Registrarse</a></li>
-                    <li class="enlaces-menu"><a href="../login/login.php">Login</a></li>
+                    
 
                 </ul>
             </nav>
