@@ -8,36 +8,27 @@
   justify-content: center;
   padding: 20px;
   
+  
 }
 
+.formContent{
+  margin-top: 200px;
+  margin-bottom: 200px;
+ margin-left: 70px;
+}
 
 
 
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-  background: #fff;
-  padding: 30px;
+  
+ height: 400px;
   width: 90%;
   max-width: 450px;
   position: relative;
-  padding: 0px;
   -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  text-align: center;
-}
-
-#formContent1 {
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
-  background: #fff;
-  padding: 30px;
-  width: 100%;
-  max-width: 800px;
-  position: relative;
-  padding: 0px;
-  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 100px 0 rgba(0,0,0,0.3);
   text-align: center;
 }
 
@@ -98,8 +89,8 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -167,12 +158,14 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   justify-content: center;
   text-align: center;
   width: 300px;
-  margin-bottom: 30px;
+  margin-top: 35px;
+  
   height: 50px;
   border: solid 2px rgb(141, 84, 9);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
   border-radius: 50px 0px 100px 50px;
+  color: rgb(141, 84, 9);
 }
 
 .fadeIn.third {
@@ -187,8 +180,9 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   animation-delay: 2.4s;
   display: flex;
   justify-content: center;
-cursor: pointer;
+ cursor: pointer;
   border-radius: 100px 25px 100px 25px;
+  margin-top: 25px;
 }
 
 

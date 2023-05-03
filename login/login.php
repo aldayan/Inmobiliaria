@@ -56,11 +56,11 @@ include("../dba/db.php");
                 <input type="submit" class="fadeIn fourth" value="Iniciar">
             </form>
 
-        </div>
+           </div>
        </div>
 
-
-    <section class="contactos" id="contactos ">
+  
+      <section class="contactos" id="contactos ">
                 <div class="container">
 
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
