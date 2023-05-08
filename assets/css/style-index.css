@@ -30,12 +30,17 @@ body {
 
 
 .menu .container{
+    position:fixed;
+    width:93%;
+    left:0;
+    top :0;
     margin-top:-10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
     background: rgba(240, 203, 152, 0.582);
+    transition:0.5s;
    
    
 }
@@ -61,20 +66,34 @@ body {
     justify-content: space-between;
     flex-direction: column;
     text-decoration: none;
- 
 
-
-    
     
 }
+
 
 .titulo-menu, a{
     text-decoration: none;
     color: rgb(141, 84, 9);
-    
+    transition: 0.5s;
 }
 
+.titulo-menu:hover{
+    padding:none;
+    color: rgb(141, 84, 9);
+    background:none;
+    border-radius:none;
 
+  
+}
+
+ a:hover{
+    
+    padding: 5px 10px;
+    color: white;
+    background:rgb(141, 84, 9);
+    border-radius:15px;
+
+}
 
 
 
@@ -131,6 +150,7 @@ body {
   color: rgb(141, 84, 9);
 }
 
+
 .buscador::placeholder{
     font-size: 16px;
     color: rgb(141, 84, 9);
@@ -153,9 +173,8 @@ body {
     text-align: center;
     font-size: 35px;
     margin: 10px;
-    
-    
-}
+
+    }
 
 
 /*-----------------------------------*/
