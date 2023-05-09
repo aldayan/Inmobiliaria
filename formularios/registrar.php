@@ -13,6 +13,7 @@
    
     <link rel="stylesheet" href="../assets/css/style-index.css">
     <link rel="stylesheet" href="../assets/css/style-registra.css">
+    <link href="../assets/css/style-botones.css" rel="stylesheet">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
     <link rel="icon" href="../assets/img/logo2.jpg">
@@ -44,7 +45,7 @@
     </header>
 
     <main class="desarrollo">
-<div class="container">
+      <div class="container">
     
 
         <div class="row mx-0 mx-md-5 mb-5 contenedor">
@@ -97,18 +98,16 @@
                     <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="R.D santo domingo"  required>
                 
                     <hr class="my-4">
-                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Enviar y continuar</h5></button>
+                    <button type="submit" name="submit" class="boton"><h5 class="boton-registrar">Guardar y continuar</h5></button>
                 
                 </div>
 
-            
-                
             </form>
             </div>
 
             
-            <section class="contactos " id="contactos ">
-                <div class="container ">
+            <section class="contactos" id="contactos ">
+                <div class="container">
                     <h2 class="titulo-contacto ">Conocenos y Contactanos</h2>
 
                     <div class="informacion-contacto">
@@ -156,8 +155,7 @@
         <p>Hecho por
             <a href="https://">Aldayan A. Avila Dotel </a>
         </p>
-        <a href=""><img src="./assets/img/linkedin.png " alt="logo de linkedin"></a>
-        <a href=""><img src="./assets/img/github.png " alt="logo de github"></a>
+
 
     </footer>
 

@@ -13,6 +13,7 @@ include("../dba/db.php");
     <title>Login | ADDE CAPITAL. S.A.</title>
     <link rel="stylesheet" href="../assets/css/style-login.css">
     <link rel="stylesheet" href="../assets/css/style-index.css">
+    <link href="../assets/css/style-botones.css" rel="stylesheet">
     <link rel="icon" href="../assets/img/logo2.jpg">
 
 </head>

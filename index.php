@@ -14,6 +14,7 @@ include("./dba/db.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./assets/css/style-index.css" rel="stylesheet">
+    <link href="./assets/css/style-botones.css" rel="stylesheet">
     <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
 </head>
 

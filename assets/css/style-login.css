@@ -1,6 +1,11 @@
 
 /* STRUCTURE */
 
+.desarrollo .container{
+  background: rgba(141, 84, 9, 0.192);
+}
+
+
 .wrapper {
   display: flex;
   align-items: center;

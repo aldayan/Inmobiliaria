@@ -12,6 +12,7 @@
    
     <link rel="stylesheet" type=" text/css" href="../assets/css/style-index.css" media="screen">
     <link rel="stylesheet" type=" text/css" href="../assets/css/style-registra.css" media="screen">
+    <link href="../assets/css/style-botones.css" rel="stylesheet">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
     <link rel="icon" href="../assets/img/social-icon.ico">
@@ -70,15 +71,15 @@
                </div>
                    
                 <div class="Form my-4">
-                    <label for="id_cargo" class="form-label"><b>id:</b></label>
+                    <label for="id_cargo" class="form-label"><b>Sexo:</b></label>
                     <div class="individiduales mx-5  mb-5">
-                        <select name="id_cargo"  class="form-control text-center"  placeholder="Elija un digito del 1 al 10" required>
+                        <select name="id_cargo"  class="form-control selecciona"  required>
                         <option value="">Elija su sexo</option>
                         <option value="2">Masculino</option>
                         <option value="2">Femenino</option>
                    </select>
                 </div>
-                    <button type="submit" name="submit" class="btn w-100 p-2 text-white" style="background-color: #39ace7 ;"><h5>Registrase y continuar</h5></button>
+                    <button type="submit" name="submit" class="boton"><h5 class="boton-registrar">Registrase y continuar</h5></button>
                 </div>
                 
                </form>
