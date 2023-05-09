@@ -23,6 +23,7 @@ if(!isset($usuario)){
     <meta name="generator" content="Hugo 0.88.1">
     <link rel="stylesheet" type=" text/css" href="../assets/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" type=" text/css" href="../assets/css/style-administracion.css" media="screen">
+    <link href="../assets/css/style-botones.css" rel="stylesheet">
     <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
     
     <title  >Administracion | ADDE CAPITAL. S.A.</title>
@@ -34,8 +35,9 @@ if(!isset($usuario)){
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark  fixed-top ">
+    <nav class="navbar fixed-top">
         <div class="container">
+
             <a href="#" class="navbar-brand">
                 <strong class="titulo">INMOBILIARIA - ADDE CAPITAL. S.A.</strong>
             </a>

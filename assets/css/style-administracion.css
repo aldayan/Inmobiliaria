@@ -1,7 +1,7 @@
 
 /*-----------------------------------*/
 
-        /* ESTILOS PARA LA ADMINISTRACION  */
+        /* MENU VERTICAL */
 
 /*-----------------------------------*/
 
@@ -9,11 +9,17 @@
     margin-top: 5px;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
+    font-style: oblique; 
     font-size: 18px;
+   
 }
+.nav-link {
+    color:rgb(141, 84, 9);
+}
+
 .nav-item:hover{
     text-decoration: underline;
+    color:rgb(141, 84, 9);
 }
 
 /*-----------------------------------*/
@@ -21,7 +27,10 @@
         /*TITULOS*/
 
 /*-----------------------------------*/
-.titulo{
+.titulo, 
+.titulo-agregar,
+.titulo-editar, 
+.titulo-publicaciones{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     font-size: 25px;
@@ -32,6 +41,30 @@
     font-style: oblique;
     font-size: 35px;
     margin: 20px;
+    color:rgb(141, 84, 9);
+}
+
+/*-----------------------------------*/
+
+       /*NAVBAR*/
+
+/*-----------------------------------*/
+
+.navbar {
+    background: rgb(141, 84, 9);
+ 
+}
+.titulo, 
+.titulo-agregar,
+.titulo-editar, 
+.titulo-publicaciones{
+    color: white;
+    transition: 0.5s;
+}
+
+.titulo:hover{
+    color: white;
+    font-size: 26px;
 }
 
 
@@ -40,6 +73,10 @@
        /*USUARIOS ACTIVOS*/
 
 /*-----------------------------------*/
+th{
+    color: rgb(141, 84, 9);
+}
+
 
 
 
@@ -74,8 +111,9 @@
 
 
 .agregar-boton{
-    border-radius: 100px 25px 100px 25px;
-    background-color: black;
+    border-radius: 100px 25px 100px 25px ;
+    border: rgb(141, 84, 9);
+    background: rgb(141, 84, 9);
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -84,3 +122,12 @@
     margin-top: 20px;
     margin-bottom: 100px;
 }
+
+
+
+
+/*-----------------------------------*/
+
+    /*PUBLCIACIONES*/
+
+/*-----------------------------------*/
