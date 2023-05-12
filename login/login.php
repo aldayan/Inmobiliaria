@@ -48,7 +48,7 @@ include("../dba/db.php");
           <div class="formContent" id="formContent">
           
             <div class="fadeIn first py-5">
-                <img src="../assets/img/" id="icon" alt="User Icon" />
+                <img src="../assets/img/logo2.png" id="icon" alt="User Icon" />
             </div>
         
             <form class="wrapper fadeInDown" action="../assets/php/validaciones/validacion-login.php" method="POST">

@@ -149,6 +149,12 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   -moz-animation-delay: 0.6s;
   animation-delay: 1s;
 }
+
+.first{
+
+  margin-top: 10px;
+}
+
 .second, .third{
   display: flex;
   justify-content: center;
