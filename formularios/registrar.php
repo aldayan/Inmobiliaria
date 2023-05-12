@@ -53,11 +53,11 @@
             <form class="formulario" action="../assets/php/registrar/registrar-usuarios.php" method="POST">
 
                 <div class="imagen">
-                    <img class="d-block mx-auto mb-4" src="../assets/img/logo2.jpg" alt="">
+                    <img class="d-block mx-auto mb-4" src="../assets/img/logo2.png" alt="">
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
-                <p class="text-justify">Completando este formulario de registro de cuenta, podra tener acceso y permisos para publicar sus inmuebles en ventas o en alquiler.</p>
+                <p class="text-justify texto">Completando este formulario de registro de cuenta, podra tener acceso y permisos para publicar sus inmuebles en ventas o en alquiler.</p>
 
                 <div class="Form my-4">
                     <label for="First_name" class="form-label"><b>Nombre:</b></label>

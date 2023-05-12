@@ -137,7 +137,7 @@ body {
 }
 
 .buscador{
- margin-top: 50px;
+ margin-top:150px;
   display: flex;
   width: 300px;
   border-radius: 50px 0px 100px 50px;
@@ -281,6 +281,7 @@ hr {
     margin: 50px;
 
 }
+
 .lista-contacto{
     display: flex;
     justify-content: space-between;

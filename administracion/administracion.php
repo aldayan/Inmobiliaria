@@ -28,7 +28,7 @@ if(!isset($usuario)){
     
     <title  >Administracion | ADDE CAPITAL. S.A.</title>
 
-    <link rel="icon" href="../assets/img/">
+    <link rel="icon" href="../assets/img/logo2.jpg">
 
     <script src="https://kit.fontawesome.com/0f48d8c00d.js"></script>
 </head>
@@ -46,49 +46,50 @@ if(!isset($usuario)){
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse  d-md-none" id="menu-principal">
+            <div class="collapse navbar-collapse" id="menu-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link " href="administracion.php">Usuarios Registrados</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="agregar.html">Agregar Inmuebles</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="publicaciones.html">Ver todas las publicaciones</a> </li>
                     <li class="nav-item"> <a class="nav-link " href="../chat/chat.php">Chat</a> </li>
-                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li></ul>
+                    <li class="nav-item"> <a class="nav-link " href="../login/cerrar.php"> Cerrar sesión </a> </li>
+                </ul>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid mt-5">
         <div class="row">
-            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg sidebar collapse">
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="administracion.php">
-                                <span data-feather="home">Usuarios Registrados</span>
+                            <a class="nav-link" aria-current="page" href="administracion.php">
+                                Usuarios Registrados
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="agregar.html">
-                                <span data-feather="file"></span>Agregar Inmuebles
+                                 Agregar Inmuebles
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="publicaciones.html">
-                                <span data-feather="bar-chart-2"></span>Ver todas las publicaciones
+                               Ver todas las publicaciones
                             </a>
                         </li>
                         
                         <li class="nav-item">
                             <a class="nav-link" href="../chat/chat.php">
-                            <span data-feather="layers"></span>Chat
+                             Chat
                             </a>
                         </li>
 
 
                         <li class="nav-item">
                             <a class="nav-link" href="../login/cerrar.php">
-                                <span data-feather="layers"></span>Cerrar sesión
+                                Cerrar sesión
                             </a>
                         </li>
                     </ul>
@@ -112,7 +113,7 @@ if(!isset($usuario)){
                                 <th scope="col">Cédula</th>
                                 <th scope="col">Teléfono</th>
                                 <th scope="col">Dirección</th>
-                                <th scope="col">Dónde vives</th>
+                                <th scope="col">Dónde vive</th>
                                 <th scope="col">Actualizar</th>
                                 <th scope="col">Eliminar</th>
                             </tr>
@@ -164,6 +165,7 @@ if(!isset($usuario)){
 <script>
     $(document).ready(function(){
         $('#tablax').DataTable({
+      
                 language: {
                     processing: "Tratamiento en curso...",
                     search: "Buscar&nbsp;:",
@@ -190,6 +192,8 @@ if(!isset($usuario)){
                 lengthMenu: [ [10, 25, -1], [10, 25, "All"] ],
             });
     });
+
+
 </script>
 </body>
 

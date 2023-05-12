@@ -54,7 +54,7 @@
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
-                <p class="text-justify">Completar este formulario para tener mas información acerca de usted y poder contactarnos.</p>
+                <p class="text-justify texto">Completar este formulario para tener mas información acerca de usted y poder contactarnos.</p>
 
             
                 <div class="Form">

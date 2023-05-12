@@ -1,4 +1,6 @@
 
+
+
 /*-----------------------------------*/
 
         /* MENU VERTICAL */
@@ -10,16 +12,30 @@
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique; 
-    font-size: 18px;
-   
-}
-.nav-link {
+    font-size: 17px;
     color:rgb(141, 84, 9);
+    transition: 0.5s;
+   
 }
 
 .nav-item:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background:rgb(141, 84, 9);
+    border-radius:15px;
+}
+
+.nav-link {
     color:rgb(141, 84, 9);
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color:white;
+}
+
+.bg{
+    background: rgba(216, 125, 6, 0.356);
 }
 
 /*-----------------------------------*/
@@ -54,6 +70,7 @@
     background: rgb(141, 84, 9);
  
 }
+
 .titulo, 
 .titulo-agregar,
 .titulo-editar, 
@@ -73,10 +90,32 @@
        /*USUARIOS ACTIVOS*/
 
 /*-----------------------------------*/
-th{
+
+
+
+
+.table{
     color: rgb(141, 84, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 18px;
 }
 
+
+th{
+   
+    color: rgb(141, 84, 9);
+    
+}
+
+tbody{
+    background: rgb(141, 84, 9);
+   
+}
+
+td{
+    color: rgba(8, 8, 8, 0.945);
+}
 
 
 
@@ -90,37 +129,56 @@ th{
 
 .agregar-form{
     display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: oblique;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
  
   
 }
 
 .agregar-input{
     display: flex;
-    margin: 15px;
     flex-direction: column;
+
     width: 500px;
+    margin: 15px;
     margin-left: 250px;
-    border-radius: 50px 0px 100px 50px;
     padding: 15px;
+
+    border-radius: 50px 0px 100px 50px ;
+    border: solid 2px rgb(141, 84, 9);
+   
     font-size: 17px;
+    color: rgb(141, 84, 9);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.agregar-input::placeholder{
+    color: rgb(141, 84, 9);
 }
 
 
+
 .agregar-boton{
-    border-radius: 100px 25px 100px 25px ;
-    border: rgb(141, 84, 9);
-    background: rgb(141, 84, 9);
+   
     color: white;
-    padding: 10px;
     cursor: pointer;
+
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+    border: solid 2px rgb(141, 84, 9);
+    border-radius: 100px 25px 100px 25px;
+    background-color: rgb(141, 84, 9);
+
     width: 500px;
     margin-left: 250px;
     margin-top: 20px;
     margin-bottom: 100px;
+    padding: 10px;
 }
 
 
