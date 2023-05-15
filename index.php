@@ -72,14 +72,31 @@ include("./dba/db.php");
                     <div class="deportiva" data-deportiva> </div>
 
 
-    <div class="caja-inmobiliaria articulo" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
-    <div class="caja-contenido" >
-        <h3>${nombreProducto}</h3>
-        <p class="costo" >$${costo}</p>
-        <hr>
-        <a href="decripcion/?id=${id}" class="enlace">Ver inmueble</a>
+    <div class="caja-inmobiliaria" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
+    <div class="caja-contenido"  >
+
+        <div class="cabecera">
+            <h3 class="nombre contenido-cabecera">${nombreProducto}</h3>
+
+            <p class="costo contenido-cabecera">$${costo}</p>
+
+             <p class="descripcion contenido-cabecera">La increíble asociación revolucionaria 
+                entre el entonces novato Michael Jordan y la incipiente división de baloncesto de Nike, 
+                que revolucionó el mundo de los deportes y la cultura contemporánea con la marca Air Jordan.
+             </p>
+         </div>
+           
+         <div class="cuerpo">
+             <p class="texto">Habitaciones: 2</p>
+          
+             <p class="texto">Parqueos: 3</p>
+         
+             <p class="texto">Metros: 400</p>
+        </div>
+           
+        
     </div>
-    </div>
+    </div> 
 
 
                 </div>
@@ -148,7 +165,7 @@ include("./dba/db.php");
     <footer>
         
         <p>Hecho por
-            <a href="https://">Aldayan A. Avila Dotel </a>
+            <a href="https://">Aldayan A. Avila Dotel</a> y <a href="https://">Jose Emmanuel Lora Rodriguez</a>
         </p>
         <a href=""></a>
         <a href=""></a>

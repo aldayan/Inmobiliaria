@@ -123,13 +123,12 @@ include("../dba/db.php");
     <footer>
         
         <p>Hecho por
-            <a href="https://">Aldayan A. Avila Dotel </a>
+            <a href="https://">Aldayan A. Avila Dotel</a> y <a href="https://">Jose Emmanuel Lora Rodriguez</a>
         </p>
         <a href=""></a>
         <a href=""></a>
 
     </footer>
-
 
    
     <script type="module" src="../assets/js/index-producto.js"></script>

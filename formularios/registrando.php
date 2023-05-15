@@ -129,13 +129,13 @@
         </div>
     </main>
 
-
     <footer>
+        
         <p>Hecho por
-            <a href="https://">Aldayan A. Avila Dotel </a>
+            <a href="https://">Aldayan A. Avila Dotel</a> y <a href="https://">Jose Emmanuel Lora Rodriguez</a>
         </p>
-        <a href=""><img src="./assets/img/linkedin.png " alt="logo de linkedin"></a>
-        <a href=""><img src="./assets/img/github.png " alt="logo de github"></a>
+        <a href=""></a>
+        <a href=""></a>
 
     </footer>
 
