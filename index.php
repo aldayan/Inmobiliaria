@@ -73,7 +73,9 @@ include("./dba/db.php");
 
 
     <div class="caja-inmobiliaria" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
-    <div class="caja-contenido"  >
+    <div class="caja-contenido" >
+
+    <img src="./assets/img/desplazar.png" class="desplazar" onclick="mostrar1()" alt="Logo" data-desplazar>
 
         <div class="cabecera">
             <h3 class="nombre contenido-cabecera">${nombreProducto}</h3>
@@ -85,7 +87,7 @@ include("./dba/db.php");
                 que revolucionó el mundo de los deportes y la cultura contemporánea con la marca Air Jordan.
              </p>
          </div>
-           
+           <hr>
          <div class="cuerpo">
              <p class="texto">Habitaciones: 2</p>
           
@@ -101,6 +103,22 @@ include("./dba/db.php");
 
                 </div>
             </section>
+
+
+            <section class="ventana-descripcion" data-ventana>
+           <div class="ventana-emergente" data-emergente>
+
+           <img src="./assets/img/cancelar.png" class="desplazar cerrar" onclick="mostrar2()"  alt="" data-cerrar>
+
+
+     <p class="descripcion contenido-cabecera">La increíble asociación revolucionaria 
+        entre el entonces novato Michael Jordan y la incipiente división de baloncesto de Nike, 
+        que revolucionó el mundo de los deportes y la cultura contemporánea con la marca Air Jordan.
+     </p>
+
+
+          </div>
+    </section>
 
 
             <section class="zonas-alquiler" id="alquiler">
@@ -176,6 +194,7 @@ include("./dba/db.php");
    
     <script type="module" src="./assets/js/index-producto.js"></script>
     <script type="module" src="./assets/js/menu.js"></script>
+    <script  src="./assets/js/ventana.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 
