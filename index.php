@@ -75,7 +75,7 @@ include("./dba/db.php");
     <div class="caja-inmobiliaria" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
     <div class="caja-contenido" >
 
-    <img src="./assets/img/desplazar.png" class="desplazar" onclick="mostrar1()" alt="Logo" data-desplazar>
+    <img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar>
 
         <div class="cabecera">
             <h3 class="nombre contenido-cabecera">${nombreProducto}</h3>
@@ -105,17 +105,34 @@ include("./dba/db.php");
             </section>
 
 
-            <section class="ventana-descripcion" data-ventana>
+    <section class="ventana-descripcion" data-ventana>
            <div class="ventana-emergente" data-emergente>
 
-           <img src="./assets/img/cancelar.png" class="desplazar cerrar" onclick="mostrar2()"  alt="" data-cerrar>
+           <img src="./assets/img/cancelar.png" class="cancelar" onclick="cancelar()"  alt="cancelar" data-cancelar>
 
+           <div class="carrusel">
 
-     <p class="descripcion contenido-cabecera">La increíble asociación revolucionaria 
-        entre el entonces novato Michael Jordan y la incipiente división de baloncesto de Nike, 
-        que revolucionó el mundo de los deportes y la cultura contemporánea con la marca Air Jordan.
-     </p>
+           </div>
 
+           <div class="descripcion-general">
+           
+              <div class="encabezado-descripcion">
+            
+              </div>
+
+              <div class="caracteristicas-descrpcion">
+            
+              </div>
+           
+              <div class="datos-descripcion">
+            
+              </div>
+
+           </div>
+
+           <div class="ofertas-similares">
+            
+           </div>
 
           </div>
     </section>

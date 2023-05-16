@@ -1,10 +1,10 @@
-function mostrar1(){
+function desplazar(){
     document.querySelector('[data-ventana]').style.display="block";
    
 
     
 }
 
-function mostrar2(){
+function cancelar(){
     document.querySelector('[data-ventana]').style.display="none";
 }
