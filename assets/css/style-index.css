@@ -18,7 +18,6 @@ body {
 
 }
 
-
 ::-webkit-scrollbar{
     display: none;
 }
@@ -223,7 +222,7 @@ body {
     position: fixed;
     top:0px;
     left: 0px;
-    background: rgba(138, 84, 14, 0.692);
+    background: rgba(155, 92, 11, 0.493);
 
 
     transition: all 500ms ease;
@@ -246,6 +245,7 @@ body {
     height: 2000px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 10px;
     background: white;
     transition: o.5s;
     position: relative;
@@ -268,30 +268,74 @@ body {
 
 }
 
+
 .encabezado-descripcion{
     display: flex;
-    border-radius: 10px;
-    border: solid 1px;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 150px;
 }
 
-.caracteristicas-descrpcion{
-    display: flex;
-    border-radius: 10px;
-    border: solid 1px;
-    width: 100%;
-    height: 300px;
-
+.titulo-inmueble{
+    font-size: 30px;
+    margin: 10px;
 }
+
+.ubicacion-inmueble{
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+
+.costo-inmueble{
+   font-size: 25px;
+   margin-top: 3px;
+}
+
+.caracteristicas-descripcion{
+    display: flex;
+    width: 50%;
+    height: 400px;
+   
+}
+
+
+.caracteristica-titulo{
+margin-left: 50px;
+font-size: 25px;
+margin-bottom: 30px;
+}
+
+.property-features {
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+   font-size: 18px;
+}
+
+
 
 .datos-descripcion{
     display: flex;
-    border-radius: 10px;
-    border: solid 1px;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 700px;
+    height: 400px;
 
+   
+
+}
+.datos-titulo{
+    font-size: 25px;
+}
+
+.datos{
+
+    width: 90%;
+    margin-top: -20px;
+    padding: 30px;
+    font-size: 18px;
 }
 
 .ofertas-similares{
@@ -300,7 +344,7 @@ body {
     border-radius: 10px;
     border: solid 1px;
     width: 100%;
-    height: 440px;
+    height:345px;
 
 }
 
@@ -327,7 +371,7 @@ body {
 }
 .desplazar{
     margin-left: 370px;
-    display: inline;
+   position: absolute;
     cursor: pointer;
 }
 
@@ -367,11 +411,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 hr {
     width: 100%;
     background: white;
+    margin-top: 15px;
     
 }
 

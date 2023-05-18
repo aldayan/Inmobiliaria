@@ -35,8 +35,6 @@ include("./dba/db.php");
                     <li class="enlaces-menu"><a href="./inmuebles/comprar.php">Comprar</a></li> 
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
                     <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
-                    
-                  
                 </ul>
             </nav>  
 
@@ -117,15 +115,50 @@ include("./dba/db.php");
            <div class="descripcion-general">
            
               <div class="encabezado-descripcion">
-            
+
+                <p class="titulo-inmueble">MODERNOS APARTAMENTOS, LANWOOD CAP CANA</p>
+                <p class="ubicacion-inmueble">GJJM+R53, Punta Cana 23000, República Dominicana</p>
+                <p class="costo-inmueble">US$131.100</p>
+    
               </div>
 
-              <div class="caracteristicas-descrpcion">
+              
+              <div class="caracteristicas-descripcion">
+                  
+                 <p class="caracteristica-titulo">Caracteristicas</p>
+                
+                 <ul class="property-features ">
+                        <li id="feature-area-de-juegos">Área de Juegos</li>
+                        <li id="feature-ascensor">Ascensor</li>
+                        <li id="feature-balcon">Balcón / Patio</li>
+                        <li id="feature-calentador-de-gas">Calentador de Gas</li>
+                        <li id="feature-camaras-de-seguridad">Cámaras de Seguridad</li>
+                        <li id="feature-cisterna">Cisterna</li>
+                        <li id="feature-cuarto-de-servicio">Cuarto de Servicio</li>
+                        <li id="feature-entrada-privada">Entrada Privada</li>
+                        <li id="feature-estar">Estar</li>
+                        <li id="feature-estudio">Estudio</li>
+                        <li id="feature-family-room">Family Room</li>
+                 </ul>
             
               </div>
            
               <div class="datos-descripcion">
             
+                 <p class="datos-titulo">Descripcion</p>
+
+                 <p class="datos">
+                    Vendo Pent House nuevo a estrenar en Jardines del Sur
+
+190 M2   /   3 habitaciones principal con vestidor (walking closet)   
+/   3 baños  /  baño para visita  /  Family room   /   Terraza privada  /   1 locker  /   
+
+
+terminaciones en madera preciosa   /   topes de cocina en granito   /   puertas principales con cerradura de 
+seguridad    /   2 parqueos techados   /  gas común   /  planta eléctrica full   /  ascensor / 
+ amplia área social /
+
+Marisol Durán / Asesora Inmobiliaria / 809 729.2483 whatsapp</p>
               </div>
 
            </div>
@@ -210,7 +243,7 @@ include("./dba/db.php");
 
    
     <script type="module" src="./assets/js/index-producto.js"></script>
-    <script type="module" src="./assets/js/menu.js"></script>
+    <script src="./assets/js/menu.js"></script>
     <script  src="./assets/js/ventana.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
