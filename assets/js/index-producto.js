@@ -64,7 +64,7 @@ service.listaProducto().then((data) => {
 
         filtered.forEach(({ url, nombreProducto, costo, hablar, habitaciones, parqueos, metros, id }) => {
 
-            const Tarjeta = crearNueva(url, nombreProducto, costo, hablar, habitaciones, parqueos, metros, id);
+            const Tarjeta = crearNueva(url, nombreProducto, costo, hablar,  habitaciones, parqueos, metros, id);
 
             parent.appendChild(Tarjeta);
         });
