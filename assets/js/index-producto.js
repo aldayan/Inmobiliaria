@@ -1,7 +1,7 @@
 import { service } from "./service.js";
 
 //creando tarjeta para index
-const crearNueva = (url, nombreProducto, costo, descripcion, habitaciones, parqueos, metros, id) => {
+const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, parqueos, metros, id) => {
 
 
     const tarjeta = document.createElement('div');
@@ -16,8 +16,7 @@ const crearNueva = (url, nombreProducto, costo, descripcion, habitaciones, parqu
 
                       <p class="costo contenido-cabecera">$${costo}</p>
                       
-                   <p class="descripcion contenido-cabecera">${descripcion}
-                   </p>
+                   <p class="descripcion contenido-cabecera">${hablar}</p>
              </div> 
 
                <hr>
@@ -63,9 +62,9 @@ service.listaProducto().then((data) => {
 
         const filtered = data.filter(ca => ca.categoria == c.value)
 
-        filtered.forEach(({ url, nombreProducto, costo, habitaciones, parqueos, metros, id }) => {
+        filtered.forEach(({ url, nombreProducto, costo, hablar, habitaciones, parqueos, metros, id }) => {
 
-            const Tarjeta = crearNueva(url, nombreProducto, costo, descripcion, habitaciones, parqueos, metros, id);
+            const Tarjeta = crearNueva(url, nombreProducto, costo, hablar, habitaciones, parqueos, metros, id);
 
             parent.appendChild(Tarjeta);
         });

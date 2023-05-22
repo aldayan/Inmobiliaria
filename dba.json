@@ -1,19 +1,28 @@
 {
   "inmobiliaria": [
     {
-      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcUFRUXGBcaGBcXGhsaGxobHR0XFxoYGBcaGhsgICwkGx0pHhoXJTYlKS4wMzMzGiI5PjkyPSwyMzABCwsLEA4QHRISHjIpIikyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjQyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIALIBHAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAQIEBQYABwj/xABCEAACAQIDBAgCCAUCBgMBAAABAgMAEQQSIQUxQVEGEyIyYXGBkVKhI0JiscHR4fAUFTNykgdDVIKDk9LxFmOyU//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACQRAAICAgICAwADAQAAAAAAAAABAhEhMQMSQVETImEjobFx/9oADAMBAAIRAxEAPwDzsIVJbdYWI33DjKfdSaNgsOHZUuFJIB3nsjex0JGl6LjMKoy/Sb1UmwB7rFWF+BAAOnMUTBssZPVoCd4c5idc6MCCcu7mOPCiWjOEXYfpCEjkaODMApCseT2u1m5XNV64sK6drPcak3uLtY39CafPE7A63YlSTz7IDbuNxU/E4TDhFOU5rXILWAuB2ezqdc2t9xHEEVnSikbVbsfsjETg2jN7MAASLL1h7TXOmgY6X/XS7SnKGxxESFY0GZmW5kQyLJYDtG9kO65DHkQcrLtlkW0ccUQ3FkUl2G7UuSd3GqKbEl2OpJO8kkknmSdazlDs7KXMoKllm3xvSXDyXVM7WcMrBctgr3AsTrpYa1XS7SYK0cUbBXBHbYG2ZmawsALDNzqhjjYG54+Ao7d3W/maUeKKF8s5bJuGQRqFst1JIOpNzv8AP1oU2JzaKbf2qB871EV78D+HpTnfw9K0ph2FMUY1JLNQJJLd0W8vzpQvE6Ul+X4UyWBcO1ifQamhuDxNSHJAuT7UFnB3CgTjgJGn7",
+      "url": "https://www.pasionbiker.com/wp-content/uploads/2016/06/header-5m.png",
       "categoria": "1",
-      "nombreProducto": "chaney",
-      "costo": "8",
-      "descripcion": "sdasas",
+      "nombreProducto": "pasante",
+      "costo": "11",
+      "descripcion": "habla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaokhabla dle imaijsaok",
+      "caracteristicas": "cafevfsdasWQEWGFBVCX ",
+      "habitaciones": "Alquiler",
+      "parqueos": "7",
+      "metros": "8",
       "id": 1
     },
     {
-      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBAPEBAPFRAWEBUWEBAVEBAQFRYQFhcXFxcVFRYYHSggGBolHhUYJTEhJSkrLi4vFyAzODMtNygtLisBCgoKDg0OFRAQFSsdFR0rLS0rLSsrLS0tLSstLS0rLS0rLS0tLS0rLS0rKysrKy0rLS0tKy0tLS0rLS0rKy0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQIDBAUGBwj/xABBEAACAQIEAwYDBAcGBwEAAAABAgADEQQSITEFQVEGEyJhcYGRobEyQlLRBxRTYnKCwSUzY5Ki4SM0RKOz8PEW/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGxEBAQEAAwEBAAAAAAAAAAAAAAERAiExQRL/2gAMAwEAAhEDEQA/APjERE0yREkCwYkhSDEhgIiICIiAklkgIiICSWSQIiIEiWSAMQYgSSZSGBJDLJAREQJERAREQEkskBERCuTERKiyREBERASREBERASRECyREBERIEk20MO9Q2RSxG9th6nYe85Q4bb7dRR5KM59zcD4EwOBE57YWmP2n+ZR8ssw/VUOzMPUBvpaMHDknIqYNxqLMOq6/Lf5TjwBiDECSGWSAkMshgIiIEiIgIiICSWSAiIhXIiIlRZIiAiIgIiIEiIgIiICImzD0WqOqL9piAPz9IGud7w3gBID1wVXdaezH+L8I8t/ScqngKdCqAFvpoxudevl/vO3DeGx3H0gdfXAVcqgKo2UCwHt1851VcztMVO2/R7wQYrGZ3F6VEB2HIvfwA+4J/llR6Lst2LpU6C1MVSV6zi5VxcIp2W3XqZ5Ptx2cGDqLUpA9w5sBvkcfdv0PL0M+y4lZ0faDhwxNCpRb7ynKej/dPsbTWM6+KUjNlXArV8n/ABAb/wAQ5/WawhVirCzAkMOjA2InOw0w289isM9M5XFuh5EdQZpnf",
+      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcUFRUXGBcaGBcXGhsaGxobHR0XFxoYGBcaGhsgICwkGx0pHhoXJTYlKS4wMzMzGiI5PjkyPSwyMzABCwsLEA4QHRISHjIpIikyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjQyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIALIBHAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAQIEBQYABwj/xABCEAACAQIDBAgCCAUCBgMBAAABAgMAEQQSIQUxQVEGEyIyYXGBkVKhI0JiscHR4fAUFTNykgdDVIKDk9LxFmOyU//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACQRAAICAgICAwADAQAAAAAAAAABAhEhMQMSQVETImEjobFx/9oADAMBAAIRAxEAPwDzsIVJbdYWI33DjKfdSaNgsOHZUuFJIB3nsjex0JGl6LjMKoy/Sb1UmwB7rFWF+BAAOnMUTBssZPVoCd4c5idc6MCCcu7mOPCiWjOEXYfpCEjkaODMApCseT2u1m5XNV64sK6drPcak3uLtY39CafPE7A63YlSTz7IDbuNxU/E4TDhFOU5rXILWAuB2ezqdc2t9xHEEVnSikbVbsfsjETg2jN7MAASLL1h7TXOmgY6X/XS7SnKGxxESFY0GZmW5kQyLJYDtG9kO65DHkQcrLtlkW0ccUQ3FkUl2G7UuSd3GqKbEl2OpJO8kkknmSdazlDs7KXMoKllm3xvSXDyXVM7WcMrBctgr3AsTrpYa1XS7SYK0cUbBXBHbYG2ZmawsALDNzqhjjYG54+Ao7d3W/maUeKKF8s5bJuGQRqFst1JIOpNzv8AP1oU2JzaKbf2qB871EV78D+HpTnfw9K0ph2FMUY1JLNQJJLd0W8vzpQvE6Ul+X4UyWBcO1ifQamhuDxNSHJAuT7UFnB3CgTjgJGn7",
       "categoria": "1",
-      "nombreProducto": "Kawasaki Ninja Hr",
-      "costo": "-1",
-      "descripcion": "dsdd",
+      "nombreProducto": "chaney",
+      "costo": "121",
+      "hablar": "dsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfafdsadadfsfaf",
+      "descripcion": "dsddes",
+      "caracteristicas": "Alquiler",
+      "habitaciones": "7",
+      "parqueos": "7",
+      "metros": "7",
       "id": 2
     }
   ]

@@ -188,7 +188,7 @@ Marisol Durán / Asesora Inmobiliaria / 809 729.2483 whatsapp</p>
                         <a class="ver" href="./inmuebles/alquilar.php">Ver todo</a>
                     </div>
 
-                    <div class="harley" data-harley></div>
+                    <div class="alquilar" data-alquilar> </div>
                      
                 </div>
             </section>

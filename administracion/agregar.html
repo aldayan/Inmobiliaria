@@ -103,13 +103,17 @@
                             </select>
                             <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre del inmueble" required data-nombre>
                             <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo del inmueble" required data-costo>
-                            <select class="agregar-input select" name="caracteristicas" id="caracteristicas" data-caracteristicas>
-                                <option class="opciones">Caracterisricas del inmueble</option>
-                                <option class="opciones" value="1">venta</option>
-                                <option class="opciones" value="2">Alquiler</option>
-                                <option class="opciones" value="3">MotoCross</option>
+                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="hablar" name="hablar" placeholder="Hable  del inmueble" required data-habla></textarea>
+                            <select class="agregar-input select" multiple name="caracteristicas" id="caracteristicas" data-caracteristicas>
+                                <option class="opciones " style="text-align: center;margin-bottom: 20px;">Seleccione las caracteristicas del inmueble</option>
+                                <option class="opciones" >venta</option>
+                                <option class="opciones" >Alquiler</option>
+                                <option class="opciones" >MotoCross</option>
+                                <option class="opciones" >venta</option>
+                                <option class="opciones" >Alquiler</option>
+                                <option class="opciones" >MotoCross</option>
                                 </select>
-                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion del producto" required data-descripcion></textarea>
+                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion del inmueble" required data-descripcion></textarea>
                             <input class="agregar-input" type="number" name="habitaciones" id="habitaciones" placeholder="Cantidad de habitaciones del inmueble" required data-habitaciones>
                             <input class="agregar-input" type="number" name="parqueos" id="parqueos" placeholder="Cantidad de parqueos del inmueble" required data-parqueos>
                             <input class="agregar-input" type="number" name="metros" id="metros" placeholder="Cantidad de parqueos del inmueble" required data-metros>
