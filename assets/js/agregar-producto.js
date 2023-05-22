@@ -12,9 +12,13 @@ formulario.addEventListener('submit', (evento) => {
     const nombreProducto = document.querySelector('[data-nombre]').value;
     const costo = document.querySelector('[data-costo]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;
+    const caracteristicas= document.querySelector('[data-caracteristicas]').value;
+    const habitaciones= document.querySelector('[data-habitaciones]').value;
+    const parqueos = document.querySelector('[data-parqueos]').value;
+    const metros = document.querySelector('[data-metros]').value;
 
 
-    service.crearProducto(url, categoria, nombreProducto, costo, descripcion).then(() => {
+    service.crearProducto(url, categoria, nombreProducto, costo, descripcion,caracteristicas, habitaciones, parqueos, metros).then(() => {
         window.location.href = 'publicaciones.html';
     }).catch(err => console.log(err))
 });

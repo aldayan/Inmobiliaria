@@ -21,7 +21,7 @@ const crearSesion = (email, contraseña) => {
 
 
 //creando producto
-const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
+const crearProducto = (url, categoria, nombreProducto, costo, descripcion, caracteristicas, habitaciones, parqueos, metros) => {
     return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
         headers: {
@@ -32,7 +32,11 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
             categoria,
             nombreProducto,
             costo,
-            descripcion
+            descripcion,
+            caracteristicas, 
+            habitaciones, 
+            parqueos, 
+            metros
         }),
     });
 
@@ -63,7 +67,7 @@ const detalleProducto = (id) => {
 
 //actualizar producto
 
-const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
+const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, caracteristicas, habitaciones, parqueos, metros, id) => {
     return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
         method: 'PUT',
 
@@ -76,7 +80,12 @@ const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, 
             categoria,
             nombreProducto,
             costo,
-            descripcion
+            descripcion,  
+            caracteristicas, 
+            habitaciones, 
+            parqueos, 
+            metros
+
         }),
 
     }).then((respuesta) => respuesta).catch(err => console.log(err));

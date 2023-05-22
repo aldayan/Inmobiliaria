@@ -98,14 +98,21 @@
                             <input class="agregar-input" type="url" name="url" id="url" placeholder="Url de la Imagen" required data-url>
                             <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
                             <option class="opciones">Categoria</option>
-                            <option class="opciones" value="1">Deportivas</option>
-                            <option class="opciones" value="2">Harley Davison</option>
-                            <option class="opciones" value="3">MotoCross</option>
-            
+                            <option class="opciones" value="1">venta</option>
+                            <option class="opciones" value="2">Alquiler</option>
                             </select>
-                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre del producto" required data-nombre>
-                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo del producto" required data-costo>
+                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre del inmueble" required data-nombre>
+                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo del inmueble" required data-costo>
+                            <select class="agregar-input select" name="caracteristicas" id="caracteristicas" data-caracteristicas>
+                                <option class="opciones">Caracterisricas del inmueble</option>
+                                <option class="opciones" value="1">venta</option>
+                                <option class="opciones" value="2">Alquiler</option>
+                                <option class="opciones" value="3">MotoCross</option>
+                                </select>
                             <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion del producto" required data-descripcion></textarea>
+                            <input class="agregar-input" type="number" name="habitaciones" id="habitaciones" placeholder="Cantidad de habitaciones del inmueble" required data-habitaciones>
+                            <input class="agregar-input" type="number" name="parqueos" id="parqueos" placeholder="Cantidad de parqueos del inmueble" required data-parqueos>
+                            <input class="agregar-input" type="number" name="metros" id="metros" placeholder="Cantidad de parqueos del inmueble" required data-metros>
                             <button type="submit" id="agregar" class="agregar-boton">Agregar</button>
                         </form>
                     </div>

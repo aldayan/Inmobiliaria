@@ -225,9 +225,8 @@ body {
     background: rgba(155, 92, 11, 0.493);
 
 
-    transition: all 500ms ease;
 
-    display: block;
+    display: none;
 
    
 }
@@ -246,10 +245,10 @@ body {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 10px;
-    background: white;
-    transition: o.5s;
+    background: rgba(229, 211, 190, 0.925);
     position: relative;
-    border-radius: 10px;
+    border-radius: 10px;    
+  
     
 }
 
@@ -275,43 +274,57 @@ body {
     align-items: center;
     width: 100%;
     height: 150px;
+    background: rgba(155, 92, 11, 0.493);
+    color: white;
 }
-
 .titulo-inmueble{
     font-size: 30px;
     margin: 10px;
 }
-
 .ubicacion-inmueble{
     font-size: 16px;
     margin-top: 2px;
 }
-
-
 .costo-inmueble{
-   font-size: 25px;
-   margin-top: 3px;
+    font-size: 25px;
+    margin-top: 3px;
 }
+
+
 
 .caracteristicas-descripcion{
     display: flex;
-    width: 50%;
-    height: 400px;
-   
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
 }
-
-
 .caracteristica-titulo{
-margin-left: 50px;
-font-size: 25px;
-margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.areas-inmueble {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+   padding: 0px 150px 0px 150px;
 }
 
-.property-features {
-   display: flex;
-   flex-direction: column;
-   margin-top: 80px;
-   font-size: 18px;
+
+
+.partes-inmueble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(155, 92, 11, 0.493);
+    color: white;
+}
+.parte{
+     text-align: center;
+     font-size: 18px;
+     padding: 30px;
 }
 
 
@@ -322,14 +335,11 @@ margin-bottom: 30px;
     align-items: center;
     width: 100%;
     height: 400px;
-
-   
-
 }
 .datos-titulo{
     font-size: 25px;
+    margin-top: 50px;
 }
-
 .datos{
 
     width: 90%;
@@ -338,6 +348,8 @@ margin-bottom: 30px;
     font-size: 18px;
 }
 
+
+
 .ofertas-similares{
 
     display: flex;
@@ -345,6 +357,8 @@ margin-bottom: 30px;
     border: solid 1px;
     width: 100%;
     height:345px;
+    background: rgba(155, 92, 11, 0.493);
+    color: white;
 
 }
 
@@ -358,8 +372,19 @@ margin-bottom: 30px;
 
 /*---------------------------------------------*/
 
+
+.venta,
+.alquilar
+ {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+
+
 .caja-inmobiliaria {
-    margin: 12px;
+    margin: 10px;
     width: 200px;
     height: 300px;
     border-radius: 10px;
@@ -367,57 +392,68 @@ margin-bottom: 30px;
     box-shadow: 0px 0px 20px rgb(141, 84, 9);
     margin-left: 40px;
     transition: 0.5s;
-   
+  
 }
 .desplazar{
-    margin-left: 370px;
+    margin-left: 455px;
+    margin-top: -6px;
    position: absolute;
     cursor: pointer;
 }
 
 .caja-contenido {
    
-   
     width: 100%;
     height: 100%;
-
     background: rgba(138, 84, 14, 0.692);
-
     opacity: 0;
-    transition: 1s;
-
-    box-shadow: 0px 0px 5px rgba(141, 84, 9, 0.137);
-    border-radius: 5px;
-
+    border-radius: 10px;
     color: white;
     font-size: 15px;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
     
    
 }
+
 .cabecera{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
+
 .contenido-cabecera{
     margin-top: 2px;
     
 }
+.nombre{
+    font-size: 25px;
+}
+.costo{
+    margin-top: 5px;
+    margin-bottom: 0px; 
+    font-size: 20px;
+}
+
+.descripcion{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
 
 .cuerpo{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
     
 }
 
 hr {
     width: 100%;
     background: white;
-    margin-top: 15px;
+    margin-top: 30px;
     
 }
 
@@ -425,14 +461,16 @@ hr {
 .caja-inmobiliaria:hover .caja-contenido {
     opacity: 1;
     padding: 10px;
-    margin-left: 100px;
-    margin-top: 15px;
-    transition: 0.5s; 
-    width: 400px;
-    height: 250px;
-    
+    border-radius: 10px;
+   
+    width: 480px;
+    height: 280px;
+
 }
 
+.caja-inmobiliaria:hover{
+    width: 500px;
+}
 
 /*-----------------------------------*/
 

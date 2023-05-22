@@ -85,7 +85,7 @@
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Editando Descripcion del inmueble</h1>
+                    <h1 class="h2">Editando descripcion del inmueble</h1>
                 </div>
         
                 <section class="agregar">
@@ -94,17 +94,25 @@
                    
 
                         <form class="agregar-form" data-form-editar>
-                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url De La Imagen" required data-url>
+                           
+                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url de la Imagen" required data-url>
                             <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
-                            <option class="opciones">Selecciona</option>
-                            <option class="opciones" value="1">Deportivas</option>
-                            <option class="opciones" value="2">Harley Davison</option>
-                            <option class="opciones" value="3">MotoCross</option>
-                            <option class="opciones" value="4">Mas Veloces</option>
+                            <option class="opciones">Categoria</option>
+                            <option class="opciones" value="1">venta</option>
+                            <option class="opciones" value="2">Alquiler</option>
                             </select>
-                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre Del Producto" required data-nombre>
-                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo Del Producto" required data-costo>
-                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion Del producto" required data-descripcion></textarea>
+                            <input class="agregar-input" type="text" name="nombre" id="nombre" placeholder="Nombre del inmueble" required data-nombre>
+                            <input class="agregar-input" type="number" name="precio" id="precio" placeholder="Costo del inmueble" required data-costo>
+                            <select class="agregar-input select" name="caracteristicas" id="caracteristicas" data-caracteristicas>
+                                <option class="opciones">Caracterisricas del inmueble</option>
+                                <option class="opciones" value="1">venta</option>
+                                <option class="opciones" value="2">Alquiler</option>
+                                <option class="opciones" value="3">MotoCross</option>
+                                </select>
+                            <textarea class="agregar-input" rows="5" type="text " cols="40 " id="descripcion " name="descripcion" placeholder="Descripcion del producto" required data-descripcion></textarea>
+                            <input class="agregar-input" type="number" name="habitaciones" id="habitaciones" placeholder="Cantidad de habitaciones del inmueble" required data-habitaciones>
+                            <input class="agregar-input" type="number" name="parqueos" id="parqueos" placeholder="Cantidad de parqueos del inmueble" required data-parqueos>
+                            <input class="agregar-input" type="number" name="metros" id="metros" placeholder="Cantidad de parqueos del inmueble" required data-metros>
                             <button type="submit " id="agregar" class="agregar-boton">Editar Producto</button>
                         </form>
                     </div>

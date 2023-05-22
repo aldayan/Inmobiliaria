@@ -1,5 +1,5 @@
 var menu= document.querySelector('#inicio');
-
+/*
 
 windows.addEvenListener('scroll', ()=>{
 
@@ -12,4 +12,4 @@ menu,style.backgroundColor='rgb(141, 84, 9)';
 menu,style.backgroundColor='transparent';
 }
 
-});
+});*/

@@ -67,37 +67,7 @@ include("./dba/db.php");
                         <a class="ver" href="./inmuebles/comprar.php">Ver todo</a>
                     </div>
 
-                    <div class="deportiva" data-deportiva> </div>
-
-
-    <div class="caja-inmobiliaria" style="background-image:url(./assets/img/logo2.jpg); background-position: center;">
-    <div class="caja-contenido" >
-
-    <img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar>
-
-        <div class="cabecera">
-            <h3 class="nombre contenido-cabecera">${nombreProducto}</h3>
-
-            <p class="costo contenido-cabecera">$${costo}</p>
-
-             <p class="descripcion contenido-cabecera">La increíble asociación revolucionaria 
-                entre el entonces novato Michael Jordan y la incipiente división de baloncesto de Nike, 
-                que revolucionó el mundo de los deportes y la cultura contemporánea con la marca Air Jordan.
-             </p>
-         </div>
-           <hr>
-         <div class="cuerpo">
-             <p class="texto">Habitaciones: 2</p>
-          
-             <p class="texto">Parqueos: 3</p>
-         
-             <p class="texto">Metros: 400</p>
-        </div>
-           
-        
-    </div>
-    </div> 
-
+                    <div class="venta" data-venta> </div>
 
                 </div>
             </section>
@@ -122,24 +92,61 @@ include("./dba/db.php");
     
               </div>
 
-              
+                
+             
+
               <div class="caracteristicas-descripcion">
                   
                  <p class="caracteristica-titulo">Caracteristicas</p>
                 
-                 <ul class="property-features ">
-                        <li id="feature-area-de-juegos">Área de Juegos</li>
-                        <li id="feature-ascensor">Ascensor</li>
-                        <li id="feature-balcon">Balcón / Patio</li>
-                        <li id="feature-calentador-de-gas">Calentador de Gas</li>
-                        <li id="feature-camaras-de-seguridad">Cámaras de Seguridad</li>
-                        <li id="feature-cisterna">Cisterna</li>
-                        <li id="feature-cuarto-de-servicio">Cuarto de Servicio</li>
-                        <li id="feature-entrada-privada">Entrada Privada</li>
-                        <li id="feature-estar">Estar</li>
-                        <li id="feature-estudio">Estudio</li>
-                        <li id="feature-family-room">Family Room</li>
+       <div class="areas-inmueble">
+        
+      
+                <ul class="area1">
+                        <li class="areas" id="feature-area-de-juegos">Área de Juegos</li>
+                        <li class="areas" id="feature-ascensor">Ascensor</li>
+                        <li class="areas" id="feature-balcon">Balcón / Patio</li>
+                        <li class="areas" id="feature-calentador-de-gas">Calentador de Gas</li>
+                        <li class="areas" id="feature-camaras-de-seguridad">Cámaras de Seguridad</li>
+                        <li class="areas" id="feature-cisterna">Cisterna</li>
                  </ul>
+
+                 <ul class="area2">
+                        <li class="areas" id="feature-cuarto-de-servicio">Cuarto de Servicio</li>
+                        <li class="areas" id="feature-entrada-privada">Entrada Privada</li>
+                        <li class="areas" id="feature-estar">Estar</li>
+                        <li class="areas" id="feature-estudio">Estudio</li>
+                        <li class="areas" id="feature-family-room">Family Room</li>
+                </ul>
+       </div>
+              
+    </div>
+
+            
+
+
+              <div class="partes-inmueble">
+                   
+                   <span class="parte">
+                    <p class="parte3">4</p>
+                    <p class="parte3">Habitaciones</p>
+                   </span>
+
+                   <span class="parte">
+                    <p class="parte3">4</p>
+                    <p class="parte3">Parqueos</p>
+                   </span>
+
+                   <span class="parte">
+                    <p class="parte3">4</p>
+                    <p class="parte3">Baños</p>
+                   </span>
+
+                   <span class="parte">
+                    <p class="parte3">400</p>
+                    <p class="parte3">Metros</p>
+                   </span>
+
             
               </div>
            
@@ -164,6 +171,8 @@ Marisol Durán / Asesora Inmobiliaria / 809 729.2483 whatsapp</p>
            </div>
 
            <div class="ofertas-similares">
+
+
             
            </div>
 
