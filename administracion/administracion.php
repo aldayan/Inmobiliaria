@@ -87,8 +87,8 @@ if(!isset($usuario)){
                         </li>
 
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="../login/cerrar.php">
+                        <li class="nav-item jaja">
+                            <a class="nav-link " href="../login/cerrar.php">
                                 Cerrar sesión
                             </a>
                         </li>

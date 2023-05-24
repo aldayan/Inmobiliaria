@@ -1,10 +1,3 @@
-<?php
-
-include("./dba/db.php");
-
-?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +6,9 @@ include("./dba/db.php");
     <title>Inmobiliaria | ADDE CAPITAL. S.A. </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./assets/css/style-index.css" rel="stylesheet">
-    <link href="./assets/css/style-botones.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
+    <link href="../assets/css/style-index.css" rel="stylesheet">
+    <link href="../assets/css/style-botones.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/logo2.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -59,35 +52,104 @@ include("./dba/db.php");
             </section>
 
 
-            <section class="zonas-ventas articulo" id="ventas">
-                <div class="container">
 
-                    <div class="zonas">
-                        <h3 class="titulo-ventas">Zonas en venta</h3>
-                        <a class="ver" href="./inmuebles/comprar.php">Ver todo</a>
-                    </div>
 
-                    <div class="venta" data-venta> </div>
-
+            <section class="ventana-descripcion" data-ventana>
+                <div class="ventana-emergente" data-emergente>
+            
+                <img src="./assets/img/cancelar.png" class="cancelar"  onclick="cancelar()"  alt="cancelar" data-cancelar>
+            
+                <div class="carrusel">
+            
                 </div>
-            </section>
-
-
-
-
-            <section class="zonas-alquiler articulo" id="alquiler"  >
-                <div class="container ">
-
-                    <div class="zonas">
-                        <h3 class="titulo-alquiler">Zonas de alquiler</h3>
-                        <a class="ver" href="./inmuebles/alquilar.php">Ver todo</a>
-                    </div>
-
-                    <div class="alquilar" data-alquilar> </div>
+            
+                <div class="descripcion-general">
+                
+                   <div class="encabezado-descripcion">
+            
+                     <p class="titulo-inmueble"><input  type="text"  data-nombre></p>
+                     <p class="ubicacion-inmueble"><input  type="text" data-ubicacion></p>
+                     <p class="costo-inmueble">US$${costo}</p>
+            
+                   </div>
+            
                      
+                  
+            
+                   <div class="caracteristicas-descripcion">
+                       
+                      <p class="caracteristica-titulo">Caracteristicas</p>
+                     
+            <div class="areas-inmueble">
+             
+            
+                     <ul class="area1">
+                             <li class="areas" id="feature-area-de-juegos">Área de Juegos</li>
+                             <li class="areas" id="feature-ascensor">Ascensor</li>
+                             <li class="areas" id="feature-balcon">Balcón / Patio</li>
+                             <li class="areas" id="feature-calentador-de-gas">Calentador de Gas</li>
+                             <li class="areas" id="feature-camaras-de-seguridad">Cámaras de Seguridad</li>
+                             <li class="areas" id="feature-cisterna">Cisterna</li>
+                      </ul>
+            
+                      <ul class="area2">
+                             <li class="areas" id="feature-cuarto-de-servicio">Cuarto de Servicio</li>
+                             <li class="areas" id="feature-entrada-privada">Entrada Privada</li>
+                             <li class="areas" id="feature-estar">Estar</li>
+                             <li class="areas" id="feature-estudio">Estudio</li>
+                             <li class="areas" id="feature-family-room">Family Room</li>
+                     </ul>
+            </div>
+                   
+            </div>
+            
+                 
+            
+            
+                   <div class="partes-inmueble">
+                        
+                        <span class="parte">
+                         <p class="parte3">${habitaciones}</p>
+                         <p class="parte3">Habitaciones</p>
+                        </span>
+            
+                        <span class="parte">
+                         <p class="parte3">${parqueos}</p>
+                         <p class="parte3">Parqueos</p>
+                        </span>
+            
+                        <span class="parte">
+                         <p class="parte3">${baños}</p>
+                         <p class="parte3">Baños</p>
+                        </span>
+            
+                        <span class="parte">
+                         <p class="parte3">${metros}</p>
+                         <p class="parte3">Metros</p>
+                        </span>
+            
+                 
+                   </div>
+                
+                   <div class="datos-descripcion">
+                 
+                      <p class="datos-titulo">Descripcion</p>
+            
+                      <p class="datos">
+                         ${descripcion}
+                         </p>
+                   </div>
+            
                 </div>
+            
+                <div class="ofertas-similares">
+            
+            
+                 
+                </div>
+            
+               </div>
             </section>
-
 
   
 
@@ -146,11 +208,10 @@ include("./dba/db.php");
 
 
    
-    <script type="module" src="./assets/js/index-producto.js"></script>
-    <script src="./assets/js/menu.js"></script>
-    <script  src="./assets/js/ventana.js"></script>
-    <script src="./assets/js/buscador.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   
+    
+    <script src="../assets/js/menu.js"></script>
+    
 </body>
 
 </html>

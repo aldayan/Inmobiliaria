@@ -12,16 +12,18 @@ const obtenerInformacion = () => {
         window.location.href = "/index.html";
     }
 
-    const img = document.querySelector('[data-img-descripcion]');
     const nombreProducto = document.querySelector('[data-nombre]');
-    const descripcion = document.querySelector('[data-descripcion]');
+    const ubicacion= document.querySelector('[data-ubicacion]');
+   
 
 
     service.detalleProducto(id).then((perfil) => {
 
-        img.src = perfil.url;
+      
         nombreProducto.value = perfil.nombreProducto;
-        descripcion.value = perfil.descripcion;
+       ubicacion.value = perfil.ubicacion;
+      
+
 
 
     });

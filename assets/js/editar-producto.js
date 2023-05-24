@@ -17,11 +17,13 @@ const obtenerInformacion = () => {
     const url = document.querySelector('[data-url]');
     const categoria = document.querySelector('[data-categoria]');
     const nombreProducto = document.querySelector('[data-nombre]');
+    const ubicacion = document.querySelector('[data-ubicacion]');
     const hablar= document.querySelector('[data-habla]');
     const costo = document.querySelector('[data-costo]');
     const descripcion = document.querySelector('[data-descripcion]');
     const caracteristicas= document.querySelector('[data-caracteristicas]');
     const habitaciones= document.querySelector('[data-habitaciones]');
+    const baños= document.querySelector('[data-baños]');
     const parqueos = document.querySelector('[data-parqueos]');
     const metros = document.querySelector('[data-metros]');
 
@@ -30,11 +32,13 @@ const obtenerInformacion = () => {
         url.value = perfil.url;
         categoria.value = perfil.categoria;
         nombreProducto.value = perfil.nombreProducto;
+        ubicacion.value = perfil.ubicacion;
         costo.value = perfil.costo;
         hablar.value=perfil.hablar;
         descripcion.value = perfil.descripcion;
         caracteristicas.value=perfil.caracteristicas;
         habitaciones.value=perfil.habitaciones;
+        baños.value=perfil.baños;
         parqueos.value=perfil.parqueos;
         metros.value=perfil.metros;
 
@@ -55,16 +59,18 @@ formulario.addEventListener('submit', (evento) => {
     const url = document.querySelector('[data-url]').value;
     const categoria = document.querySelector('[data-categoria]').value;
     const nombreProducto = document.querySelector('[data-nombre]').value;
+    const ubicacion = document.querySelector('[data-ubicacion]').value;
     const costo = document.querySelector('[data-costo]').value;
     const hablar= document.querySelector('[data-habla]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;
     const caracteristicas= document.querySelector('[data-caracteristicas]').value;
     const habitaciones= document.querySelector('[data-habitaciones]').value;
+    const baños = document.querySelector('[data-baños]').value;
     const parqueos = document.querySelector('[data-parqueos]').value;
     const metros = document.querySelector('[data-metros]').value;
 
 
-    service.actualizarProducto(url, categoria, nombreProducto, costo, hablar, descripcion, caracteristicas,  habitaciones, parqueos, metros, id).then(() => {
+    service.actualizarProducto(url, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas,  habitaciones, baños, parqueos, metros, id).then(() => {
         window.location.href = 'publicaciones.html';
     })
 });

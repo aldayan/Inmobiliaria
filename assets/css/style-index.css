@@ -128,7 +128,9 @@ body {
 
 /*-----------------------------------*/
 
-
+.filtro{
+    display: none;
+}
 
 
 .buscador-pizarra .container{
@@ -142,8 +144,8 @@ body {
 .buscador{
  margin-top:150px;
   display: flex;
-  width: 300px;
-  border-radius: 50px 0px 100px 50px;
+  width: 400px;
+  border-radius: 50px ;
   text-align: left;
   font-size: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -446,6 +448,7 @@ body {
     position: relative;
     padding: 10px;
     font-size: 17px;
+    
 }
 
 

@@ -67,9 +67,10 @@ include("../dba/db.php");
 
                     <div class="zonas">
                         <h3 class="titulo-alquiler">Zonas de alquiler</h3>
+                        
                     </div>
 
-                    <div class="harley" data-harley> </div>
+                    <div class="alquilar" data-alquilar> </div>
                      
                 </div>
             </section>
