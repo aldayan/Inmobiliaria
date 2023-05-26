@@ -9,12 +9,12 @@ const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, baños, pa
 <div class="caja-inmobiliaria articulo" style="background-image:url(${url}); background-position: center;">
       <div class="caja-contenido" >
 
-      <img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar>
+     <a class="vinculo" href="descripcion/descripcion.html?id=${id}"><img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar></a> 
 
              <div class="cabecera">
                   <h3 class="nombre contenido-cabecera" >${nombreProducto}</h3>
 
-                      <p class="costo contenido-cabecera">$${costo}</p>
+                      <p class="costo contenido-cabecera">${costo}</p>
                       
                    <p class="descripcion contenido-cabecera">${hablar}</p>
              </div> 
@@ -79,6 +79,8 @@ service.listaProducto().then((data) => {
 });
 
 
+
+/*
 
 //creando tarjeta para index
 const ventanaEmergente = (url, nombreProducto, ubicacion, costo,  descripcion, caracteristicas, habitaciones, baños, parqueos, metros, id) => {
@@ -228,7 +230,7 @@ service.listaProducto().then((data) => {
     alert('ocurrio un error');
 });
 
-
+*/
 
 
 

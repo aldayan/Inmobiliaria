@@ -155,7 +155,7 @@ td{
 
     border-radius: 50px 0px 100px 50px ;
     border: solid 2px rgb(141, 84, 9);
-   
+    outline: none;
     font-size: 17px;
     color: rgb(141, 84, 9);
     font-family: 'Times New Roman', Times, serif;
@@ -184,7 +184,7 @@ text-align: center;
     border: solid 2px rgb(141, 84, 9);
     border-radius: 100px 25px 100px 25px;
     background-color: rgb(141, 84, 9);
-
+    outline: none;
     width: 500px;
     margin-left: 250px;
     margin-top: 20px;

@@ -148,7 +148,7 @@ include("./dba/db.php");
    
     <script type="module" src="./assets/js/index-producto.js"></script>
     <script src="./assets/js/menu.js"></script>
-    <script  src="./assets/js/ventana.js"></script>
+    <script src="./assets/js/ventana.js"></script>
     <script src="./assets/js/buscador.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>

@@ -17,17 +17,17 @@
         <div class="container">
 
             <h1 class="titulo-menu">
-              <a href="index.php" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
+              <a href="../index.php" class="titulo-menu">INMOBILIARIA - ADDE CAPITAL. S.A.</a>
             </h1>
 
 
             <nav class="lista-menu">
             <ul class="menu-enlaces">
-                    <li class="enlaces-menu"><a href="#inicio">Inicio</a></li>
-                    <li class="enlaces-menu"><a href="./inmuebles/alquilar.php">Alquilar</a></li>
-                    <li class="enlaces-menu"><a href="./inmuebles/comprar.php">Comprar</a></li> 
-                    <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
-                    <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
+                    <li class="enlaces-menu"><a href="../index.php">Inicio</a></li>
+                    <li class="enlaces-menu"><a href="../inmuebles/alquilar.php">Alquilar</a></li>
+                    <li class="enlaces-menu"><a href="../inmuebles/comprar.php">Comprar</a></li> 
+                    <li class="enlaces-menu"><a href="../login/login.php">Login</a></li> 
+                    <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li> 
                 </ul>
             </nav>  
 
@@ -37,27 +37,10 @@
     <main class="desarrollo">
         <div class="container">
 
-            <section class="buscador-pizarra">
-                <div class="container">
 
-              
-                 
-                    <div class="buscador-inmobiliaria">
-               
-                    <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
-                   
-                    </div>
-
-                </div>
-            </section>
-
-
-
-
-            <section class="ventana-descripcion" data-ventana>
-                <div class="ventana-emergente" data-emergente>
-            
-                <img src="./assets/img/cancelar.png" class="cancelar"  onclick="cancelar()"  alt="cancelar" data-cancelar>
+            <section class="ventana-descripcion">
+                <div class="ventana-emergente">
+        
             
                 <div class="carrusel">
             
@@ -67,9 +50,9 @@
                 
                    <div class="encabezado-descripcion">
             
-                     <p class="titulo-inmueble"><input  type="text"  data-nombre></p>
-                     <p class="ubicacion-inmueble"><input  type="text" data-ubicacion></p>
-                     <p class="costo-inmueble">US$${costo}</p>
+                     <p class="titulo-inmueble"><input class="titulo-inmueble" type="text" readonly data-nombre></p>
+                     <p class="ubicacion-inmueble"><input class="ubicacion-inmueble"  type="text" readonly data-ubicacion></p>
+                     <p class="costo-inmueble"><input class="costo-inmueble" type="text" readonly data-costo></p>
             
                    </div>
             
@@ -109,23 +92,24 @@
                    <div class="partes-inmueble">
                         
                         <span class="parte">
-                         <p class="parte3">${habitaciones}</p>
-                         <p class="parte3">Habitaciones</p>
+                         <p class="parte1"><input class="acesorios" type="text" readonly data-habitacion></p>
+                         <p class="parte1">Habitaciones</p>
                         </span>
+
+                        <span class="parte">
+                            <p class="parte2"><input class="acesorios" type="text" readonly data-baños></p>
+                            <p class="parte2">Baños</p>
+                           </span>
+               
             
                         <span class="parte">
-                         <p class="parte3">${parqueos}</p>
+                         <p class="parte3"><input class="acesorios" type="text" readonly data-parqueos></p>
                          <p class="parte3">Parqueos</p>
                         </span>
             
                         <span class="parte">
-                         <p class="parte3">${baños}</p>
-                         <p class="parte3">Baños</p>
-                        </span>
-            
-                        <span class="parte">
-                         <p class="parte3">${metros}</p>
-                         <p class="parte3">Metros</p>
+                         <p class="parte4"><input class="acesorios" type="text" readonly data-metros></p>
+                         <p class="parte4">Metros</p>
                         </span>
             
                  
@@ -136,7 +120,7 @@
                       <p class="datos-titulo">Descripcion</p>
             
                       <p class="datos">
-                         ${descripcion}
+                        <textarea class="datos-inmueble" type="text" name="descripcion" id="descripcion" readonly data-descripcion cols="10" rows="20"></textarea>
                          </p>
                    </div>
             
@@ -160,7 +144,7 @@
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/logo2.jpg" class="img-contacto" alt="logo">
+                            <img src="../assets/img/logo2.jpg" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
@@ -208,8 +192,7 @@
 
 
    
-   
-    
+    <script type="module" src="../assets/js/descripcion-producto.js"></script>
     <script src="../assets/js/menu.js"></script>
     
 </body>
