@@ -170,10 +170,24 @@ body {
 
 /*-----------------------------------*/
 
-
+.titulo-descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 35px;
+    height: 200px;
+     color: white;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    background: rgba(141, 84, 9, 0.192);
+}
 .titulo-ventas,
 .titulo-alquiler,
 .titulo-contacto{
+   
+    background: rgba(240, 203, 152, 0.158);
+    
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -192,8 +206,13 @@ body {
 
 .zonas-ventas .container, .zonas-alquiler .container{
     display: flex;
-    height: 450px;
+    
     background: rgba(141, 84, 9, 0.192);
+    padding-top: 30px;
+    
+}
+.zonas-alquiler .container{
+   padding-bottom: 30px;
 }
 
 .zonas{
@@ -439,13 +458,15 @@ margin-top: 142px;
 
 
 .caja-inmobiliaria {
-    margin: 10px;
+    
+    margin: 15px;
+    margin-left: 40px;
     width: 200px;
     height: 300px;
     border-radius: 10px;
     background-size: cover;
     box-shadow: 0px 0px 20px rgb(141, 84, 9);
-    margin-left: 40px;
+    
     transition: 0.5s;
   
 }
@@ -478,8 +499,11 @@ margin-top: 142px;
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
     
+    
    
 }
+
+
 
 .cabecera{
     display: flex;
@@ -539,6 +563,7 @@ hr {
    transition: 1s;
     width: 480px;
     height: 280px;
+  
 
 }
 

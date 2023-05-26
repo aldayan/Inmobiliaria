@@ -47,7 +47,7 @@ include("./dba/db.php");
             <section class="buscador-pizarra">
                 <div class="container">
 
-              
+            
                  
                     <div class="buscador-inmobiliaria">
                

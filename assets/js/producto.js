@@ -9,10 +9,8 @@ const crearNuevaTarjeta = (url, nombreProducto, costo, hablar, id) => {
 
 
     const contenido = `
-    <div class="caja-inmobilaria articulo" style="background-image:url(${url}); background-position: center;">
-      <div class="caja-contendo" >
-
-      <img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar>
+    <div class="caja-inmobiliaria articulo" style="background-image:url(${url}); background-position: center;">
+      <div class="caja-contenido" >
 
              <div class="cabecera">
                   <h3 class="nombre contenido-cabecera" >${nombreProducto}</h3>
