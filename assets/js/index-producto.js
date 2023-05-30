@@ -1,11 +1,15 @@
 import { service } from "./service.js";
 
+
+
+
 //creando tarjeta para index
 const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, baños, parqueos,  metros, id) => {
 
 
     const tarjeta = document.createElement('div');
     const contenedor = `
+    
 <div class="caja-inmobiliaria articulo" style="background-image:url(${url}); background-position: center;">
       <div class="caja-contenido" >
 

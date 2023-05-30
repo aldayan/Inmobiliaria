@@ -95,7 +95,8 @@
                  
                         <form class="agregar-form" data-form-agregar>
 
-                            <input class="agregar-input" type="url" name="url" id="url" placeholder="Url de la Imagen" required data-url>
+                            <!--<input class="agregar-input" type="url" name="url" id="url" placeholder="Url de la Imagen" required data-url>-->
+                            <input type="file"  class="agregar-input" id="image-input" accept="image/*"  required data-url>
                             <select class="agregar-input select" name="categoria" id="categoria" required data-categoria>
                             <option class="opciones">Categoria</option>
                             <option class="opciones" value="1">venta</option>
@@ -130,8 +131,8 @@
         </div>
     </div>
 
-    <script type="module" src="../assets/js/agregar-producto.js">
-    </script>
+    <script type="module" src="../assets/js/agregar-producto.js"></script>
+
 </body>1
 
 </html>

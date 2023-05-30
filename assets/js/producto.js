@@ -1,14 +1,16 @@
 import { service } from "./service.js";
 
 
+
 //creando tarjeta para administracion 
 const crearNuevaTarjeta = (url, nombreProducto, costo, hablar, id) => {
+
 
 
     const linea = document.createElement('div');
 
 
-    const contenido = `
+    const contenido = ` 
     <div class="caja-inmobiliaria articulo" style="background-image:url(${url}); background-position: center;">
       <div class="caja-contenido" >
 
@@ -26,12 +28,15 @@ const crearNuevaTarjeta = (url, nombreProducto, costo, hablar, id) => {
                <a href="editar.html?id=${id}" class="editar"><i class="fas fa-pen"></i></a>
                <i class="fas fa-trash-alt trashIcon icon" id="${id}" data-btn></i>
            </div>
-       
+          
        </div>
+      
 </div>
 `
 
     linea.innerHTML = contenido;
+
+    
 
     const btn = linea.querySelector('[data-btn]');
     btn.addEventListener('click', () => {
@@ -46,6 +51,8 @@ const crearNuevaTarjeta = (url, nombreProducto, costo, hablar, id) => {
 
     });
     return linea;
+
+    
 };
 
 
@@ -63,7 +70,6 @@ service.listaProducto().then((data) => {
     });
 
 }).catch((error) => alert('ocurrio un error'));
-
 
 
 /*
