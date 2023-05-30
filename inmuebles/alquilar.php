@@ -4,8 +4,6 @@ include("../dba/db.php");
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +60,7 @@ include("../dba/db.php");
             </section>
 
 
-            <section class="zonas-alquiler" id="alquiler">
+            <section class="zonas-alquiler articulo" id="alquiler">
                 <div class="container ">
 
                     <div class="zonas">
@@ -75,6 +73,7 @@ include("../dba/db.php");
                 </div>
             </section>
 
+           
 
 
 
@@ -131,8 +130,10 @@ include("../dba/db.php");
 
     </footer>
 
-   
-    <script type="module" src="../assets/js/index-producto.js"></script>
+    <script  src="../assets/js/buscador.js"></script>
+    <script type="module" src="../assets/js/ver-alquiler.js"></script>
+    <script src="../assets/js/ventana.js"></script>
+    
     
 </body>
 

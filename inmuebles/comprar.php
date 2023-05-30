@@ -62,18 +62,18 @@ include("../dba/db.php");
             </section>
 
 
-            <section class="zonas-ventas" id="ventas">
+          <section class="zonas-ventas articulo" id="ventas">
                 <div class="container">
 
                     <div class="zonas">
                         <h3 class="titulo-ventas">Zonas en venta</h3>
+                       
                     </div>
 
-                    <div class="deportiva" data-deportiva> </div>
+                    <div class="venta" data-venta> </div>
 
                 </div>
             </section>
-
 
 
 
@@ -133,8 +133,9 @@ include("../dba/db.php");
 
 
    
-    <script type="module" src="../assets/js/index-producto.js"></script>
-    
+    <script  src="../assets/js/buscador.js"></script>
+    <script type="module" src="../assets/js/ver-venta.js"></script>
+    <script src="../assets/js/ventana.js"></script>
 </body>
 
 </html>

@@ -4,8 +4,6 @@ include("./dba/db.php");
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,7 +73,7 @@ include("./dba/db.php");
 
 
 
-            <section class="zonas-alquiler articulo" id="alquiler"  >
+           <section class="zonas-alquiler articulo" id="alquiler"  >
                 <div class="container ">
 
                     <div class="zonas">

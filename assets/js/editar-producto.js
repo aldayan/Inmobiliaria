@@ -4,6 +4,31 @@ import { service } from "./service.js";
 //editando producto
 const formulario = document.querySelector('[data-form-editar]');
 
+const img= document.querySelector('[data-url]');
+const url="";
+
+
+img.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
+
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url = event.target.result;
+console.log(url);
+      };
+    }
+  });
 const obtenerInformacion = () => {
 
     const ur = new URL(window.location);
@@ -13,8 +38,7 @@ const obtenerInformacion = () => {
     if (id == null) {
         window.location.href = "publicaciones.html";
     }
-
-    const url = document.querySelector('[data-url]');
+   
     const categoria = document.querySelector('[data-categoria]');
     const nombreProducto = document.querySelector('[data-nombre]');
     const ubicacion = document.querySelector('[data-ubicacion]');
@@ -29,7 +53,7 @@ const obtenerInformacion = () => {
 
     service.detalleProducto(id).then((perfil) => {
 
-        url.value = perfil.url;
+        
         categoria.value = perfil.categoria;
         nombreProducto.value = perfil.nombreProducto;
         ubicacion.value = perfil.ubicacion;
@@ -55,8 +79,10 @@ formulario.addEventListener('submit', (evento) => {
 
     const ur = new URL(window.location);
     const id = ur.searchParams.get("id");
+    
 
-    const url = document.querySelector('[data-url]').value;
+
+  
     const categoria = document.querySelector('[data-categoria]').value;
     const nombreProducto = document.querySelector('[data-nombre]').value;
     const ubicacion = document.querySelector('[data-ubicacion]').value;
