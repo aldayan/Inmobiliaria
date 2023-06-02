@@ -1,22 +1,22 @@
+var carousel = document.querySelector('.carousel');
+var images = carousel.getElementsByTagName('img');
+var currentIndex = 0;
 
-
-let slideIndex = 1;
-showSlide(slideIndex);
-
-function changeSlide(n) {
-  showSlide(slideIndex += n);
+function showImage(index) {
+  for (var i = 0; i < images.length; i++) {
+    images[i].style.display = 'none';
+  }
+  images[index].style.display = 'block';
 }
-console.log(changeSlide(1));
-function showSlide(n) {
-  const slides = document.getElementsByClassName("carousel");
-  if (n > slides.length) {
-    slideIndex = 1;
+
+function nextImage() {
+  currentIndex++;
+  if (currentIndex >= images.length) {
+    currentIndex = 0;
   }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
+  showImage(currentIndex);
 }
+
+setInterval(nextImage, 3000); // Cambia la imagen cada 3 segundos
+
+showImage(currentIndex);
