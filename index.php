@@ -1,8 +1,3 @@
-<?php
-
-include("./dba/db.php");
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,11 +9,12 @@ include("./dba/db.php");
     <link href="./assets/css/style-index.css" rel="stylesheet">
     <link href="./assets/css/style-botones.css" rel="stylesheet">
     <link rel="icon" href="./assets/img/logo2.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4a7e8b2fe8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <header class="menu" id="inicio">
+    <header class="menu" >
         <div class="container">
 
             <h1 class="titulo-menu">
@@ -34,6 +30,11 @@ include("./dba/db.php");
                     <li class="enlaces-menu"><a href="./login/login.php">Login</a></li> 
                     <li class="enlaces-menu"><a href="./formularios/registrar.php">Registrarse</a></li> 
                 </ul>
+                
+                <div class="menu-boton">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            
             </nav>  
 
         </div>
@@ -45,7 +46,7 @@ include("./dba/db.php");
             <section class="buscador-pizarra">
                 <div class="container">
 
-            <div class="presentacion">
+            <div class="presentacion ">
              <p class="presentacion-titulo">Encuentra el hogar de tus sueños </p>
                 <p class="presentacion-contenido"> Somos una una empresa que se dedica a
                      la compra, venta y alquiler de propiedades como casas, departamentos, oficinas, terrenos, 
@@ -76,10 +77,11 @@ include("./dba/db.php");
 
 \
 
-            <div class="cartulinas">
-             <p class="cartulina-titulo p">Hazte con la comodidad en un instante</p>
-                <p class="presentacion-cartulina p"> Les ofrecemos servicios de asesoramiento, gestión y publicidad. Los beneficios de una inmobiliaria son varios, entre ellos:
-                    <ul>
+            <div class="cartulinas articulo">
+             <p class="cartulina-titulo">Hazte con la comodidad en un instante</p>
+               
+                    <ul class="presentacion-cartulina">
+                    Les ofrecemos servicios de asesoramiento, gestión y publicidad. Los beneficios de una inmobiliaria son varios, entre ellos:
                         <li class="beneficios">Ahorro de tiempo y dinero: Nos encargamos de buscar las propiedades 
                             que se ajustan a las necesidades y al presupuesto del cliente, así como de negociar 
                             las condiciones del contrato y de realizar los trámites legales necesarios.
@@ -96,7 +98,7 @@ include("./dba/db.php");
                         </li>
 
                     </ul>
-                </p>
+            
 
                     
             </div>

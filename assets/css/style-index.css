@@ -84,7 +84,9 @@ body {
     border-radius:15px;
 
 }
-
+.menu-boton{
+    display: none;
+}
 
 
 /*-----------------------------------*/
@@ -403,6 +405,7 @@ body {
     font-size: 25px;
     margin-top: 50px;
 }
+
 .datos{
     width: 90%;
     margin-top: -20px;
@@ -450,28 +453,26 @@ body {
     width: 100%;
     height: 500px;
     background: linear-gradient(white, rgba(229, 211, 190, 0.781));
-   
+
    }
    
    .cartulina-titulo{
        font-size: 60px;
        text-align: center;
-       width: 50%;
+       width: 40%;
    }
    
    .presentacion-cartulina{
-     display: flex;
-     flex-direction: column;
+      display: flex;
+      margin: 40px;
+      flex-direction: column;
       font-size: 20px;
       margin-bottom: 70px;
-      text-align: center;
+      text-align: left;
       width: 50%;
       
    }
 
-.p{
-    margin: 40px;
-}
 
 .beneficios{
 margin-top: 10px;
@@ -699,4 +700,88 @@ footer p:hover {
 a img {
     background: white;
     border-radius: 100px;
+}
+
+
+
+
+
+/*-----------------------------------*/
+
+          /*REPONSIVA*/
+
+/*-----------------------------------*/
+
+
+
+
+/*------------------------------------------*/
+
+
+/*responsive 768*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+   
+ .menu .container{
+    width: auto;
+ }
+
+ .menu-boton{
+   display: block;
+ }
+   
+ .menu-enlaces{
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 203, 152, 0.973);
+    flex-direction: column;
+    line-height: 100px;
+    transition: all 0.5s ease;
+    align-items: center;
+    transform: translateX(-100%);
+ }
+
+ .menu-enlaces .active{
+    transform: translateX(0);
+ }
+}
+
+
+/*------------------------------------------*/
+
+
+/*responsive 1200*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 1200px) {
+    .informacion-contacto {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-contacto {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    .lista-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacto-form {
+        width: 60%;
+    }
+}
+
+.filtro{
+    display: none;
 }

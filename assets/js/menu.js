@@ -1,15 +1,7 @@
-var menu= document.querySelector('#inicio');
-/*
+const menu= document.querySelector('.menu-enlaces');
+const boton= document.querySelector('.menu-boton');
 
-windows.addEvenListener('scroll', ()=>{
+boton.addEventListener('click', () => {
+menu.classList.toggle('active');
 
-var scroll = windows.scrollY;
-
-if(scroll>10){
-    
-menu,style.backgroundColor='rgb(141, 84, 9)';
-}else{
-menu,style.backgroundColor='transparent';
-}
-
-});*/
+});
