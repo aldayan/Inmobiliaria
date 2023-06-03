@@ -44,42 +44,30 @@ body {
     padding: 20px 50px 20px 50px;
     background: rgba(240, 203, 152, 0.582);
     transition:0.5s;
-   
-   
 }
 
 .titulo-menu{
     width: 20%;
     font-size: 22px;
-    
-   
 }
 
 
 .menu-enlaces{
     display: flex;
     justify-content: space-between;
-    
-    
 }
-
 .enlaces-menu{
     display: flex;
     margin-left: 30px;
     justify-content: space-between;
     flex-direction: column;
     text-decoration: none;
-
-    
 }
-
-
 .titulo-menu, a{
     text-decoration: none;
     color: rgb(141, 84, 9);
     transition: 0.5s;
 }
-
 .titulo-menu:hover{
     padding:none;
     color: rgb(141, 84, 9);
@@ -90,7 +78,6 @@ body {
 }
 
  a:hover{
-    
     padding: 5px 10px;
     color: white;
     background:rgb(141, 84, 9);
@@ -127,24 +114,46 @@ body {
              /*BUSCADOR*/
 
 /*-----------------------------------*/
-
-.filtro{
-    display: none;
-}
-
-
 .buscador-pizarra .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background: rgba(141, 84, 9, 0.192);
+    height: 600px;  
+    background: linear-gradient(white, rgba(229, 211, 190, 0.781));
+    margin-top: 100px;
+
+}
+
+
+
+.presentacion{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+
+}
+
+.presentacion-titulo{
+    font-size: 90px;
+    text-align: center;
+    width: 55%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+  
+}
+
+.presentacion-contenido{
+   width: 83%;
+   font-size: 20px;
+   margin-bottom: 70px;
+   text-align: center;
 }
 
 .buscador{
- margin-top:150px;
+  border: solid 1px;
+  width: 30%;
   display: flex;
-  width: 400px;
   border-radius: 50px ;
   text-align: left;
   font-size: 15px;
@@ -156,12 +165,14 @@ body {
   outline: none;
 }
 
+.filtro{
+    display: none;
+}
+
 
 .buscador::placeholder{
     font-size: 16px;
     color: rgb(141, 84, 9);
-
-
 }
 
 /*-----------------------------------*/
@@ -174,10 +185,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
     font-size: 35px;
     height: 200px;
-    
     margin-bottom: -100px;
     margin-top: 100px;
     background: rgba(141, 84, 9, 0.171);
@@ -185,16 +194,12 @@ body {
 .titulo-ventas,
 .titulo-alquiler,
 .titulo-contacto{
-   
-    background: rgba(240, 203, 152, 0.158);
-    
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 35px;
     margin: 10px;
-
-    }
+}
 
 
 /*-----------------------------------*/
@@ -206,13 +211,12 @@ body {
 
 .zonas-ventas .container, .zonas-alquiler .container{
     display: flex;
-    
     background: rgba(141, 84, 9, 0.192);
     padding-top: 30px;
     
 }
 .zonas-alquiler .container{
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .zonas{
@@ -240,21 +244,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
    /*osition: absolute;
     top:0px;
     left: 0px;*/
-
     margin-top:100px;
     background: rgba(141, 84, 9, 0.192);
     /*background: rgba(155, 92, 11, 0.493);*/
-
-
-
     /*display: none;*/
-
-   
 }
+
 /*
 .cancelar{
     margin-left: 815px;
@@ -273,9 +271,8 @@ body {
     background: rgba(229, 211, 190, 0.925);
     /*position: relative;*/
     border-radius: 10px;    
-  
-    
 }
+
 
 .carrusel{
     border-radius: 10px;
@@ -286,15 +283,16 @@ body {
     width: 100%;
     height: 500px;
     overflow: hidden;
-  }
-  
+}
   .carousel img  {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
   
+
+
 .descripcion-general{
     display: flex;
     justify-content: center;
@@ -310,8 +308,6 @@ body {
     background: rgba(155, 92, 11, 0.493);
     color: white;
 }
-
-
 .titulo-inmueble{
     font-size: 30px;
     width: 100%;
@@ -324,8 +320,6 @@ body {
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 .ubicacion-inmueble{
     font-size: 16px;
     width: 100%;
@@ -338,7 +332,6 @@ body {
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
 }
-
 .costo-inmueble{
     font-size: 25px;
     margin-top: -5px;
@@ -346,7 +339,6 @@ body {
     outline: none;
     text-align: center;
     background: rgba(155, 93, 11, 0);
- 
     color: white;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
@@ -387,7 +379,6 @@ body {
      font-size: 18px;
      padding: 30px;
 }
-
 .acesorios{
     text-align: center;
     background: rgba(155, 93, 11, 0);
@@ -396,8 +387,8 @@ body {
     color: white;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
-    
 }
+
 
 .datos-descripcion{
     display: flex;
@@ -405,14 +396,12 @@ body {
     align-items: center;
     width: 100%;
     height: 400px;
-   
 }
 .datos-titulo{
     font-size: 25px;
     margin-top: 50px;
 }
 .datos{
-
     width: 90%;
     margin-top: -20px;
     padding: 30px;
@@ -430,19 +419,17 @@ body {
     outline: none;
     color: rgb(141, 84, 9);
     font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-   
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 
 .ofertas-similares{
-
     display: flex;
     width: 100%;
     height:472px;
     background: rgba(155, 92, 11, 0.493);
     color: white;
-margin-top: 70px;
+    margin-top: 70px;
 }
 
 
@@ -467,7 +454,6 @@ margin-top: 70px;
 
 
 .caja-inmobiliaria {
-    
     margin: 15px;
     margin-left: 50px;
     width: 300px;
@@ -475,7 +461,6 @@ margin-top: 70px;
     border-radius: 10px;
     background-size: cover;
     box-shadow: 0px 0px 20px rgb(141, 84, 9);
-    
     transition: 0.5s;
   
 }
@@ -496,10 +481,9 @@ margin-top: 70px;
 }
 
 .caja-contenido {
-   
     width: 100%;
     height: 100%;
-    background: rgba(138, 84, 14, 0.692);
+    background: linear-gradient(rgba(138, 84, 14, 0.692), rgba(211, 127, 32, 0.959));
     opacity: 0;
     border-radius: 10px;
     color: white;
@@ -507,33 +491,23 @@ margin-top: 70px;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
-    
-    
-   
 }
-
-
-
 .cabecera{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contenido-cabecera{
     margin-top: 2px;
-    
 }
 .nombre{
     font-size: 20px;
-    
 }
 .costo{
     margin-top: -15px;
     margin-bottom: 0px; 
     font-size: 20px;
 }
-
 .descripcion{
     margin-top: 10px;
     width: 100%;
@@ -544,32 +518,23 @@ margin-top: 70px;
     position: relative;
     padding: 10px;
     font-size: 17px;
-    
 }
-
-
 .cuerpo{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    
-    
 }
-
 hr {
     width: 100%;
     background: white;
     margin-top: 20px;
-    
 }
-
-
 .caja-inmobiliaria:hover .caja-contenido {
     opacity: 1;
     padding: 10px;
     border-radius: 10px;
-   transition: 1s;
+    transition: 1s;
     width: 480px;
     height: 280px;
   
@@ -590,7 +555,7 @@ hr {
     display: flex;
     text-align: center;
     padding-top: 30px;
-    background: rgba(240, 203, 152, 0.582);
+    background: linear-gradient(white, rgba(229, 211, 190, 0.781));
     
 }
 .informacion-contacto{
@@ -645,7 +610,6 @@ flex-direction: column;
     border-radius: 50px 0px 100px 50px;
     border: solid 2px rgb(141, 84, 9);
     color: rgb(141, 84, 9);
-    
     outline: none;
 }
 
@@ -676,19 +640,16 @@ flex-direction: column;
 /*-----------------------------------*/
 
 footer {
-
     text-align: center;
     padding: 10px;
-    background: rgba(240, 203, 152, 0.582);
-   margin-bottom: -10px;
-    
+    background: linear-gradient( rgba(229, 211, 190, 0.781), white );
+    margin-bottom: -10px;
 }
 
 footer p:hover {
     font-size: 20px;
     transition: 1s;
 }
-
 a img {
     background: white;
     border-radius: 100px;

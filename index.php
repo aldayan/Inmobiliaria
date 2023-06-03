@@ -45,13 +45,18 @@ include("./dba/db.php");
             <section class="buscador-pizarra">
                 <div class="container">
 
-            
-                 
-                    <div class="buscador-inmobiliaria">
-               
+            <div class="presentacion">
+             <p class="presentacion-titulo">Encuentra el hogar de tus sueños </p>
+                <p class="presentacion-contenido"> Durante numerosas misiones más que imposibles, 
+                    Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y 
+                    e ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán 
+                    que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro 
+                    que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto 
+                    a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.</p>
+
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
-                   
-                    </div>
+            </div>
+                
 
                 </div>
             </section>
@@ -70,8 +75,22 @@ include("./dba/db.php");
                 </div>
             </section>
 
+\
 
+            <div class="cartulinas">
+             <p class="cartulina-titulo">Encuentra la comodidad en un instante</p>
+                <p class="presentacion-cartulina"> Durante numerosas misiones más que imposibles, 
+                    Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y 
+                    e ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán 
+                    que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro 
+                    que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto 
+                    a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.</p>
 
+                    
+            </div>
+                
+
+      
 
            <section class="zonas-alquiler articulo" id="alquiler"  >
                 <div class="container ">
