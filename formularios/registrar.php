@@ -113,7 +113,7 @@
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/ " class="img-contacto" alt="logo">
+                            <img src="../assets/img/logo2.png " class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>

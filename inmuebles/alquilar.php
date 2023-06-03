@@ -45,20 +45,18 @@ include("../dba/db.php");
     <main class="desarrollo">
         <div class="container">
 
-            <section class="buscador-pizarra">
+        <section class="buscador-pizarra-alquilar">
                 <div class="container">
 
-              
-                 
-                    <div class="buscador-inmobiliaria">
+            <div class="presentacion"  >
+            <p class="presentacion-titulo-alquiler">La vivienda es una zona de paz y aqui puedes alquilar tu zona.</p>
                
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
-                   
-                    </div>
+            </div>
+                
 
                 </div>
             </section>
-
 
             <section class="zonas-alquiler articulo" id="alquiler">
                 <div class="container ">

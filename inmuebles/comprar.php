@@ -47,16 +47,15 @@ include("../dba/db.php");
     <main class="desarrollo">
         <div class="container">
 
-            <section class="buscador-pizarra">
+        <section class="buscador-pizarra-venta">
                 <div class="container">
 
-              
-                 
-                    <div class="buscador-inmobiliaria">
+            <div class="presentacion"  >
+            <p class="presentacion-titulo-venta">No vendemos casas, vendemos hogares para que los recuerdos sean inorvidables.</p>
                
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
-                   
-                    </div>
+            </div>
+                
 
                 </div>
             </section>

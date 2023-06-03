@@ -78,8 +78,8 @@ include("./dba/db.php");
 \
 
             <div class="cartulinas">
-             <p class="cartulina-titulo">Encuentra la comodidad en un instante</p>
-                <p class="presentacion-cartulina"> Durante numerosas misiones más que imposibles, 
+             <p class="cartulina-titulo p">Hazte con la comodidad en un instante</p>
+                <p class="presentacion-cartulina p"> Durante numerosas misiones más que imposibles, 
                     Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y 
                     e ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán 
                     que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro 
