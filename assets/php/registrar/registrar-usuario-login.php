@@ -14,7 +14,6 @@ $resultado=mysqli_query($conexion,$consulta);
 if($resultado){
    
     echo'<script type="text/javascript">
-    alert("Datos guardados");
     window.location.href="../../../login/login.php"
     </script>';
   

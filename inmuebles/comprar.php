@@ -51,7 +51,7 @@ include("../dba/db.php");
                 <div class="container">
 
             <div class="presentacion"  >
-            <p class="presentacion-titulo-venta">No vendemos casas, vendemos hogares para que los recuerdos sean inorvidables.</p>
+            <p class="presentacion-titulo-venta">Algunas personas buscan un lugar hermoso. Otros, embellecen un lugar.</p>
                
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
             </div>
@@ -84,7 +84,7 @@ include("../dba/db.php");
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="../assets/img/logo2.jpg" class="img-contacto" alt="logo">
+                            <img src="../assets/img/logo2.png" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>

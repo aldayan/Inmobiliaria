@@ -47,12 +47,11 @@ include("./dba/db.php");
 
             <div class="presentacion">
              <p class="presentacion-titulo">Encuentra el hogar de tus sueños </p>
-                <p class="presentacion-contenido"> Durante numerosas misiones más que imposibles, 
-                    Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y 
-                    e ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán 
-                    que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro 
-                    que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto 
-                    a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.</p>
+                <p class="presentacion-contenido"> Somos una una empresa que se dedica a
+                     la compra, venta y alquiler de propiedades como casas, departamentos, oficinas, terrenos, 
+                     etc. Una que inmobiliaria ofrece servicios profesionales como asesoramiento legal, tasación, 
+                     gestión de trámites, marketing, etc. Una inmobiliaria puede ayudar a los clientes a encontrar la propiedad que mejor 
+                    se adapte a sus necesidades, preferencias y presupuesto.</p>
 
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">
             </div>
@@ -79,12 +78,25 @@ include("./dba/db.php");
 
             <div class="cartulinas">
              <p class="cartulina-titulo p">Hazte con la comodidad en un instante</p>
-                <p class="presentacion-cartulina p"> Durante numerosas misiones más que imposibles, 
-                    Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y 
-                    e ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán 
-                    que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro 
-                    que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto 
-                    a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.</p>
+                <p class="presentacion-cartulina p"> Les ofrecemos servicios de asesoramiento, gestión y publicidad. Los beneficios de una inmobiliaria son varios, entre ellos:
+                    <ul>
+                        <li class="beneficios">Ahorro de tiempo y dinero: Nos encargamos de buscar las propiedades 
+                            que se ajustan a las necesidades y al presupuesto del cliente, así como de negociar 
+                            las condiciones del contrato y de realizar los trámites legales necesarios.
+                        </li>
+                        <li class="beneficios">
+                        Seguridad y confianza:  contamos con profesionales cualificados y con experiencia en el sector, 
+                        que garantizan la legalidad y la calidad de las propiedades,
+                        así como el cumplimiento de los derechos y obligaciones de las partes.
+                        </li>
+                        <li class="beneficios">
+                        Asesoramiento personalizado: ofrecemos un servicio integral y adaptado a cada cliente, 
+                        brindando información sobre el mercado inmobiliario, las opciones de financiación,
+                         los aspectos fiscales y las ventajas e inconvenientes de cada propiedad.
+                        </li>
+
+                    </ul>
+                </p>
 
                     
             </div>
@@ -115,7 +127,7 @@ include("./dba/db.php");
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/logo2.jpg" class="img-contacto" alt="logo">
+                            <img src="./assets/img/logo2.png" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>

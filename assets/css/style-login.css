@@ -12,21 +12,23 @@
   flex-direction: column; 
   justify-content: center;
   padding: 20px;
-  
-  
+
+}
+.wrapper .fadeInDown .formContent{
+  background: linear-gradient(white, rgba(229, 211, 190, 0.781));
 }
 
 .formContent{
   margin-top: 200px;
   margin-bottom: 200px;
-
+  
 }
 
 
 
 #formContent {
-
- height: 400px;
+  
+   height: 400px;
   width: 90%;
   max-width: 450px;
   position: relative;

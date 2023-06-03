@@ -49,8 +49,8 @@
 
               <form class="formulario" action="../assets/php/registrar/registrar-usuario-login.php" method="POST">
 
-                <div class="py-5 text-center">
-                    <img class="d-block mx-auto mb-4" src="../assets/img/" alt="">
+                <div class="imagen">
+                    <img class="d-block mx-auto mb-4" src="../assets/img/logo2.png" alt="logo">
                 </div>
 
                 <h2 class="mb-3 ">Registrando</h2>
@@ -93,7 +93,7 @@
                     <div class="informacion-contacto">
 
                         <nav class="lista-contacto">
-                            <img src="./assets/img/ " class="img-contacto" alt="logo">
+                            <img src="../assets/img/logo2.png" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
                                 <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
