@@ -5,8 +5,11 @@ const formulario = document.querySelector('[data-form-agregar]');
 
 
 let img= document.querySelector('[data-url]');
-let url="";
+let img2= document.querySelector('[data-url2]');
 
+
+let url="";
+let url2="";
 
 img.addEventListener('change', function(e) {
     // Obtener los archivos seleccionados
@@ -25,12 +28,35 @@ img.addEventListener('change', function(e) {
       // Definir el evento onload del lector
       reader.onload = function(event) {
         url = event.target.result;
-console.log(url);
+
       };
     }
   });
 
-  console.log(img);
+  img2.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
+
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url2 = event.target.result;
+
+      };
+    }
+  });
+ 
+
+  
 //agregando producto
 formulario.addEventListener('submit', (evento) => {
 
@@ -48,9 +74,9 @@ formulario.addEventListener('submit', (evento) => {
     const baños= document.querySelector('[data-baños]').value;
     const parqueos = document.querySelector('[data-parqueos]').value;
     const metros = document.querySelector('[data-metros]').value;
+    console.log(categoria);
 
-
-    service.crearProducto(url, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros).then(() => {
+    service.crearProducto(url, url2, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros).then(() => {
         window.location.href = 'publicaciones.html';
     }).catch(err => console.log(err))
 });

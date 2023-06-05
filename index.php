@@ -75,7 +75,6 @@
                 </div>
             </section>
 
-\
 
             <div class="cartulinas articulo">
              <p class="cartulina-titulo">Hazte con la comodidad en un instante</p>
@@ -181,7 +180,7 @@
     <script src="./assets/js/menu.js"></script>
     <script src="./assets/js/ventana.js"></script>
     <script src="./assets/js/buscador.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>

@@ -11,7 +11,8 @@ const obtenerInformacion = () => {
     if (id == null) {
         window.location.href = "/index.html";
     }
-    const url = document.querySelector('[data-url');
+    const url = document.querySelector('[data-url]');
+    const url2 = document.querySelector('[data-url2]');
     const nombreProducto = document.querySelector('[data-nombre]');
     const ubicacion= document.querySelector('[data-ubicacion]');
     const costo = document.querySelector('[data-costo]');
@@ -26,6 +27,7 @@ const obtenerInformacion = () => {
     service.detalleProducto(id).then((perfil) => {
 
        url.src=perfil.url;
+       url2.src=perfil.url2;
        nombreProducto.value = perfil.nombreProducto;
        ubicacion.value = perfil.ubicacion;
        costo.value = perfil.costo;

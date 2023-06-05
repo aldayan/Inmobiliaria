@@ -21,7 +21,7 @@ const crearSesion = (email, contraseña) => {
 
 
 //creando producto
-const crearProducto = (url, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros) => {
+const crearProducto = (url, url2, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros) => {
     return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
         headers: {
@@ -29,6 +29,7 @@ const crearProducto = (url, categoria, nombreProducto, ubicacion, costo, hablar,
         },
         body: JSON.stringify({
             url,
+            url2,
             categoria,
             nombreProducto,
             ubicacion,
@@ -70,7 +71,7 @@ const detalleProducto = (id) => {
 
 //actualizar producto
 
-const actualizarProducto = (url, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños,  parqueos, metros, id) => {
+const actualizarProducto = (url,  url2, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños,  parqueos, metros, id) => {
     return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
         method: 'PUT',
 
@@ -80,6 +81,7 @@ const actualizarProducto = (url, categoria, nombreProducto, ubicacion, costo, ha
 
         body: JSON.stringify({
             url,
+            url2,
             categoria,
             nombreProducto,
             ubicacion,

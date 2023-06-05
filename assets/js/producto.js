@@ -72,15 +72,3 @@ service.listaProducto().then((data) => {
 }).catch((error) => alert('ocurrio un error'));
 
 
-/*
-    <div class="caja-motos articulo" style="background-image:url(${url}); background-position: center; ">
-    <div class="caja-contenido">
-        <h3>${nombreProducto}</h3>
-        <p class="costo">$${costo}</p>
-        <hr>
-        <div class="icons">
-            <a href="editar.html?id=${id}" class="editar"><i class="fas fa-pen"></i></a>
-            <i class="fas fa-trash-alt trashIcon icon" id="${id}" data-btn></i>
-        </div>
-    </div>
-</div>*/
