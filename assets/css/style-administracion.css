@@ -136,62 +136,143 @@ td{
 
 .agregar-form{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction:column;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
- 
+}
+
+
+.seccion{
+    margin-top: 25px;
+    color: rgb(141, 84, 9);
+    margin-bottom: 2px;
+}
+
+.separador{
+    width: 100%;
+    background: rgb(141, 84, 9);
+    margin-top: 10px;
+}
+
+
+.caracteristicas{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   margin: 20px;
   
 }
-
-.agregar-input{
-    display: flex;
-    flex-direction: column;
-
-    width: 500px;
-    margin: 15px;
-    margin-left: 250px;
-    padding: 15px;
-
-    border-radius: 50px 0px 100px 50px ;
-    border: solid 2px rgb(141, 84, 9);
+.primeros-detalles{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    width: 70%;
+    margin: 10px;
+    cursor: pointer; 
+    font-size: 19px;
     outline: none;
-    font-size: 17px;
+    border: solid 1px rgb(141, 84, 9);
+    border-radius: 50px;
+    padding: 10px;
+    color:rgb(141, 84, 9) ;
+}
+.select1{
+    width: 50%;
+    text-align: center;
     color: rgb(141, 84, 9);
+    
+}
+
+
+.galeria{
+   width: 100%;
+   margin: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.imagen{
+    margin: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
 }
 
-.agregar-input::placeholder{
+.detallada{
+   width: 100%;
+   margin: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+   
+}
+.informacion{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    outline: none;
+    color:rgb(141, 84, 9) ;
+    border: solid 1px rgb(141, 84, 9);
+    border-radius: 50px;
+    margin: 20px;
+    width: 80%;
+    padding: 20px;
+    margin-left: 110px;
+}
+
+.select{
+    width: 50%;
+    text-align: center;
+    margin-left: 250px;
+    color: rgb(141, 84, 9);
+    
+}
+
+.mas{
+    width: 100%;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inmueble{
+    color:rgb(141, 84, 9) ;
+    border-radius: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 40%;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    outline: none;
+    border: solid 1px rgb(141, 84, 9);
+   
+}
+
+::placeholder{
     color: rgb(141, 84, 9);
 }
 
-.opciones{
-text-align: center;
-}
 
 
 
 .agregar-boton{
-   
     color: white;
-    cursor: pointer;
-
+    cursor: pointer; 
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     outline: none;
-    border: solid 2px rgb(141, 84, 9);
+    border: none;
     border-radius: 100px 25px 100px 25px;
     background-color: rgb(141, 84, 9);
-    outline: none;
     width: 500px;
     margin-left: 250px;
     margin-top: 20px;
     margin-bottom: 100px;
     padding: 10px;
 }
-
 
 
 
@@ -301,9 +382,10 @@ text-align: center;
 }
 .nombre{
     font-size: 25px;
+    
 }
 .costo{
-    margin-top: -15px;
+    margin-top: -8px;
     margin-bottom: 0px; 
     font-size: 20px;
 }
