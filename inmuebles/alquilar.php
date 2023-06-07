@@ -131,6 +131,7 @@ include("../dba/db.php");
     <script  src="../assets/js/buscador.js"></script>
     <script type="module" src="../assets/js/ver-alquiler.js"></script>
     <script src="../assets/js/ventana.js"></script>
+    <script src="../assets/js/menu.js"></script>
     
     
 </body>

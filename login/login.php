@@ -113,7 +113,7 @@ include("../dba/db.php");
         <a href=""></a>
 
     </footer>
-
+    <script src="../assets/js/menu.js"></script>
     <script src="../assets/js/login.js"></script>
 </body>
 </html>
