@@ -1,5 +1,5 @@
 const listaProducto = () => {
-    return fetch(' http://localhost:3000/inmobiliaria').then(respuesta => {
+    return fetch('http://localhost:3000/inmobiliaria').then(respuesta => {
         return respuesta.json();
     });
 };
@@ -7,7 +7,7 @@ const listaProducto = () => {
 
 //creando sesion
 const crearSesion = (email, contraseña) => {
-    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
+    return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
 
         body: JSON.stringify({
@@ -18,21 +18,33 @@ const crearSesion = (email, contraseña) => {
     });
 
 };
-
+ 
 
 //creando producto
-const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
-    return fetch('https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos', {
+const crearProducto = (url, url2, url3, url4, url5, url6, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros) => {
+    return fetch('http://localhost:3000/inmobiliaria', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
             url,
+            url2,
+            url3, 
+            url4, 
+            url5, 
+            url6,
             categoria,
             nombreProducto,
+            ubicacion,
             costo,
-            descripcion
+            hablar,
+            descripcion,
+            caracteristicas, 
+            habitaciones, 
+            baños,
+            parqueos, 
+            metros
         }),
     });
 
@@ -43,7 +55,7 @@ const crearProducto = (url, categoria, nombreProducto, costo, descripcion) => {
 
 const eliminarProducto = (id) => {
 
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
 
         method: 'DELETE'
     });
@@ -54,7 +66,7 @@ const eliminarProducto = (id) => {
 //detalle del producto
 
 const detalleProducto = (id) => {
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`).then((respuesta) => respuesta.json()
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`).then((respuesta) => respuesta.json()
 
     );
 };
@@ -63,8 +75,8 @@ const detalleProducto = (id) => {
 
 //actualizar producto
 
-const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, id) => {
-    return fetch(`https://my-json-server.typicode.com/aldayan/sprint-2-tienda-virtual/sesionYproductos/${id}`, {
+const actualizarProducto = (url,  url2,  url3, url4,  url5, url6,categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños,  parqueos, metros, id) => {
+    return fetch(`http://localhost:3000/inmobiliaria/${id}`, {
         method: 'PUT',
 
         headers: {
@@ -73,10 +85,23 @@ const actualizarProducto = (url, categoria, nombreProducto, costo, descripcion, 
 
         body: JSON.stringify({
             url,
+            url2,
+            url3, 
+            url4, 
+            url5, 
+            url6,
             categoria,
             nombreProducto,
+            ubicacion,
             costo,
-            descripcion
+            hablar,
+            descripcion,  
+            caracteristicas, 
+            habitaciones, 
+            baños,
+            parqueos, 
+            metros
+
         }),
 
     }).then((respuesta) => respuesta).catch(err => console.log(err));

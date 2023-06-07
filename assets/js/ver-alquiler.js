@@ -1,8 +1,6 @@
 import { service } from "./service.js";
 
 
-
-
 //creando tarjeta para index
 const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, baños, parqueos,  metros, id) => {
 
@@ -13,7 +11,7 @@ const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, baños, pa
 <div class="caja-inmobiliaria articulo" style="background-image:url(${url}); background-position: center;">
       <div class="caja-contenido" >
 
-     <a class="vinculo" href="descripcion/descripcion.html?id=${id}"><img src="./assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar></a> 
+     <a class="vinculo" href="../descripcion/descripcion.html?id=${id}"><img src="../assets/img/desplazar.png" class="desplazar" onclick="desplazar()" alt="desplazar" data-desplazar></a> 
 
              <div class="cabecera">
                   <h3 class="nombre contenido-cabecera" >${nombreProducto}</h3>
@@ -45,16 +43,10 @@ const crearNueva = (url, nombreProducto, costo, hablar, habitaciones, baños, pa
 
 const cards = [{
 
-    category: "data-venta",
-    value: 1
-
-}, {
-
     category: "data-alquilar",
     value: 2
+
 }];
-
-
 
 
 
@@ -79,7 +71,7 @@ service.listaProducto().then((data) => {
 
 
 }).catch((error) => {
-    alert('ocurrio un error');
+   
+    console.log('error');
 });
-
 
