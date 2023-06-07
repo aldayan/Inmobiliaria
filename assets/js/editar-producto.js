@@ -29,6 +29,7 @@ console.log(url);
       };
     }
   });
+  
 const obtenerInformacion = () => {
 
     const ur = new URL(window.location);

@@ -6,10 +6,17 @@ const formulario = document.querySelector('[data-form-agregar]');
 
 let img= document.querySelector('[data-url]');
 let img2= document.querySelector('[data-url2]');
-
+let img3= document.querySelector('[data-url3]');
+let img4= document.querySelector('[data-url4]');
+let img5= document.querySelector('[data-url5]');
+let img6= document.querySelector('[data-url6]');
 
 let url="";
 let url2="";
+let url3="";
+let url4="";
+let url5="";
+let url6="";
 
 img.addEventListener('change', function(e) {
     // Obtener los archivos seleccionados
@@ -55,7 +62,95 @@ img.addEventListener('change', function(e) {
     }
   });
  
+  img3.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
 
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url3 = event.target.result;
+
+      };
+    }
+  });
+
+  img4.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
+
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url4 = event.target.result;
+
+      };
+    }
+  });
+ 
+  img5.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
+
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url5 = event.target.result;
+
+      };
+    }
+  });
+
+  img6.addEventListener('change', function(e) {
+    // Obtener los archivos seleccionados
+    const files = e.target.files;
+
+    // Recorrer los archivos
+    for (let i = 0; i < files.length; i++) {
+      const file = files[i];
+
+      // Crear un objeto de tipo FileReader
+      const reader = new FileReader();
+
+      // Leer el archivo como una URL de datos
+      reader.readAsDataURL(file);
+
+      // Definir el evento onload del lector
+      reader.onload = function(event) {
+        url6= event.target.result;
+      
+      };
+    }
+  });
+ 
+ 
   
 //agregando producto
 formulario.addEventListener('submit', (evento) => {
@@ -76,7 +171,7 @@ formulario.addEventListener('submit', (evento) => {
     const metros = document.querySelector('[data-metros]').value;
     console.log(categoria);
 
-    service.crearProducto(url, url2, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros).then(() => {
+    service.crearProducto(url, url2, url3, url4, url5, url6, categoria, nombreProducto, ubicacion, costo, hablar, descripcion, caracteristicas, habitaciones, baños, parqueos, metros).then(() => {
         window.location.href = 'publicaciones.html';
     }).catch(err => console.log(err))
 });
