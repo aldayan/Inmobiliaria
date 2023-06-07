@@ -72,12 +72,12 @@ include("../dba/db.php");
                             <img src="../assets/img/logo2.png" class="img-contacto" alt="logo">
 
                             <ul class="lista-informacion">
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quienes Somos</a></li>
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Políticas de privacidad</a></li>
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Programa de fidelidad</a></li>
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Nuestras Tiendas</a></li>
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Quiero ser Franquiciado</a></li>
-                                <li class="list-info "><a class="preguntas" href="informacion/informacion.html">Anuncie Aquí</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Quienes Somos</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Políticas de privacidad</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Programa de fidelidad</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Nuestras Tiendas</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Quiero ser Franquiciado</a></li>
+                                <li class="list-info "><a class="preguntas" href="../informacion/informacion.html">Anuncie Aquí</a></li>
                             </ul>
                         </nav>
 
