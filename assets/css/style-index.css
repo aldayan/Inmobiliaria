@@ -290,7 +290,6 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-size: 50vw 50vh;
 }
 
   
@@ -617,15 +616,19 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
     margin-top: -100px;
 }
 
 
+.img-contacto{
+
+padding: 20px;
+}
+
 .lista-informacion{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -725,13 +728,42 @@ a img {
 /*------------------------------------------*/
 
 @media (max-width: 768px) {
-   
+    body {
+        width:auto;
+       
+        font-size: 16px;
+        background: white;
+        font-style: oblique;
+        font-family: 'Times New Roman', Times, serif;
+    
+        background: url(../img/fondo5.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        color: rgb(141, 84, 9);
+     
+    
+    }
+
+
  .menu .container{
     width: auto;
+    display: flex;
+    justify-content: space-between;
+    right: -10px;
+
+
+ }
+
+ .titulo-menu{
+    font-size: 17px;
+    width: 60%;
  }
 
  .menu-boton{
    display: block;
+  
  }
    
  .menu-enlaces{
@@ -746,12 +778,239 @@ a img {
     line-height: 100px;
     transition: all 0.5s ease;
     align-items: center;
+   
     transform: translateX(-100%);
  }
 
  .menu-enlaces .active{
     transform: translateX(0);
  }
+
+ .desarrolo .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-right: -10px;
+ }
+
+ .buscador-pizarra .container{
+   width: auto;
+   margin-top:  85px;
+   background: linear-gradient(white, rgba(229, 211, 190, 0.781));
+   height: 500px; 
+   margin-right: -10px;
+ }
+
+ .presentacion-titulo{
+    font-size: 40px;
+    margin-top: 10px;
+ }
+
+.presentacion-contenido{
+    text-align:left;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.buscador{
+    width: 50%;
+}
+
+.zonas{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 10px;
+}
+
+
+.cartulinas{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px; 
+    margin-right: -10px;
+}
+
+.cartulina-titulo{
+    font-size: 40px;
+    width: 60%;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.presentacion-cartulina{ 
+    width: auto;
+    font-size: 16px;
+    text-align: left;
+}
+
+.beneficios{
+    margin-top: 30px;
+    
+}
+
+.zonas-ventas .container, .zonas-alquiler .container{
+    width: auto;
+    display: flex;
+    background: rgba(141, 84, 9, 0.192);
+    padding-top: 30px;
+    margin-right: -10px;
+    
+}
+
+.caja-inmobiliaria {
+    margin: 15px;
+   
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgb(141, 84, 9);
+    transition: 0.5s;
+  
+}
+
+.desplazar{
+    margin-left: 255px;
+    margin-top: -6px;
+   position: absolute;
+    cursor: pointer;
+}
+
+
+
+.caja-contenido {
+    width: auto;
+    height: auto;
+    background: linear-gradient(rgba(138, 84, 14, 0.692), rgba(211, 127, 32, 0.959));
+    opacity: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido-cabecera{
+    margin-top: 10px;
+}
+.nombre{
+    font-size: 30px;
+}
+.costo{
+    margin-top: -5px;
+    margin-bottom: 10px; 
+    font-size: 20px;
+}
+.descripcion{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+    padding: 10px;
+    font-size: 17px;
+}
+hr {
+    width: 100%;
+    background: white;
+    margin-top: 40px;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.caja-inmobiliaria:hover .caja-contenido {
+    opacity: 1;
+    
+    border-radius: 10px;
+    transition: 1s;
+    width: 281px;
+    height: 480px;
+  
+
+}
+
+.caja-inmobiliaria:hover{
+    width: 300px;
+}
+
+.caja-contenido:hover{
+    width: 281px;
+    height: 480px;
+    
+}
+
+.contactos .container{
+     width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+}
+
+.lista-contacto{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.lista-informacion{
+    display: flex;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contacto{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-input, .contacto-boton{
+    width: 300px;
+}
+
+footer{
+    width: auto;
+    margin-right: -10px;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
 }
 
 

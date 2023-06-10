@@ -13,9 +13,10 @@
     <link rel="stylesheet" type=" text/css" href="../assets/css/style-index.css" media="screen">
     <link rel="stylesheet" type=" text/css" href="../assets/css/style-registra.css" media="screen">
     <link href="../assets/css/style-botones.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a7e8b2fe8.js" crossorigin="anonymous"></script>
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
 
-    <link rel="icon" href="../assets/img/social-icon.ico">
+    <link rel="icon" href="../assets/img/logo2.jpg">
 </head>
 
 <body>
@@ -38,6 +39,11 @@
                     
 
                 </ul>
+
+                <div class="menu-boton">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            
             </nav>
 
         </div>
@@ -78,7 +84,11 @@
                         <option value="2">Masculino</option>
                         <option value="2">Femenino</option>
                    </select>
+
                 </div>
+
+
+                <hr class="my-4">
                     <button type="submit" name="submit" class="boton"><h5 class="boton-registrar">Registrase y continuar</h5></button>
                 </div>
                 
