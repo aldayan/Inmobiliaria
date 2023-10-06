@@ -17,6 +17,7 @@ include("../dba/db.php");
     <link href="../assets/css/style-inmuebles.css" rel="stylesheet">
     <link href="../assets/css/style-botones.css" rel="stylesheet">
     <link rel="icon" href="../assets/img/logo2.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4a7e8b2fe8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,9 +37,13 @@ include("../dba/db.php");
                     <li class="enlaces-menu"><a href="comprar.php">Comprar</a></li>
                     <li class="enlaces-menu"><a href="../login/login.php">Login</a></li> 
                     <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li> 
-              
                   
                 </ul>
+
+                <div class="menu-boton">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            
             </nav>  
 
         </div>

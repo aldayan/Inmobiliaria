@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../assets/css/style-registra.css">
     <link href="../assets/css/style-botones.css" rel="stylesheet">
     <title>Registrando Usuario | ADDE CAPITAL. S.A.</title>
-
+    <script src="https://kit.fontawesome.com/4a7e8b2fe8.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../assets/img/logo2.jpg">
 </head>
 
@@ -39,6 +39,11 @@
                    
 
                 </ul>
+
+                <div class="menu-boton">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            
             </nav>
 
         </div>
@@ -74,7 +79,7 @@
 
                 <div class="Form  my-4">
                     <label for="cedula" class="form-label"><b>Cédula:</b></label>
-                    <input type="number" class="form-control" id="cedula" name="cedula" placeholder="Cedula"  required>
+                    <input type="number" class="form-control" id="cedula" name="cedula" placeholder="908-5423253-4"  required>
                    
                 </div>
 
@@ -88,7 +93,7 @@
 
                 <div class="Form  my-4">
                     <label for="Adress" class="form-label"><b>Dirección:</b></label>
-                    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección"  required>
+                    <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Calle ... casa # ..."  required>
                    
                    
                 </div>

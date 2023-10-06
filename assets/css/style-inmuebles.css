@@ -93,3 +93,45 @@ font-size: 40px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+
+/*-----------------------------------*/
+
+          /*REPONSIVA*/
+
+/*-----------------------------------*/
+
+
+
+
+/*------------------------------------------*/
+
+
+/*responsive 768*/
+
+
+/*------------------------------------------*/
+
+@media (max-width: 768px) {
+
+
+    .buscador-pizarra-alquilar .container,
+     .buscador-pizarra-venta .container{
+        margin-right: -10px;
+        width: auto;
+        margin-top: 85px;
+    }
+    
+.presentacion-titulo-alquiler, 
+.presentacion-titulo-venta{
+    font-size: 40px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 40px;
+ 
+}
+
+
+
+
+}

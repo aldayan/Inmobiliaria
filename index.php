@@ -51,7 +51,7 @@
                 <p class="presentacion-contenido"> Somos una una empresa que se dedica a
                      la compra, venta y alquiler de propiedades como casas, departamentos, oficinas, terrenos, 
                      etc. Una que inmobiliaria ofrece servicios profesionales como asesoramiento legal, tasación, 
-                     gestión de trámites, marketing, etc. Una inmobiliaria puede ayudar a los clientes a encontrar la propiedad que mejor 
+                     gestión de trámites, marketing, etc. Nos encargamos de ayudar a los clientes a encontrar la propiedad que mejor 
                     se adapte a sus necesidades, preferencias y presupuesto.</p>
 
                     <input type="text" class="buscador" id="buscador"   placeholder="Buscar inmuebles...">

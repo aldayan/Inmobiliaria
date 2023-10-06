@@ -15,6 +15,7 @@ include("../dba/db.php");
     <link rel="stylesheet" href="../assets/css/style-index.css">
     <link href="../assets/css/style-botones.css" rel="stylesheet">
     <link rel="icon" href="../assets/img/logo2.jpg">
+    <script src="https://kit.fontawesome.com/4a7e8b2fe8.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -33,8 +34,11 @@ include("../dba/db.php");
                     <li class="enlaces-menu"><a href="../inmuebles/comprar.php">Comprar</a></li>
                     <li class="enlaces-menu"><a href="login.php">Login</a></li>
                     <li class="enlaces-menu"><a href="../formularios/registrar.php">Registrarse</a></li>
-                  
-
+            </ul>
+                    <div class="menu-boton">
+                <i class="fa-solid fa-bars"></i>
+               </div>
+            
             </nav>
 
         </div>
@@ -114,6 +118,5 @@ include("../dba/db.php");
 
     </footer>
     <script src="../assets/js/menu.js"></script>
-    <script src="../assets/js/login.js"></script>
 </body>
 </html>
