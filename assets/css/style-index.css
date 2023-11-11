@@ -34,7 +34,7 @@ body {
 
 .menu .container{
     position:fixed;
-    width:93%;
+    width:95%;
     left:0;
     top :0;
     margin-top:-10px;
@@ -862,7 +862,6 @@ a img {
 
 .caja-inmobiliaria {
     margin: 15px;
-   
     width: 300px;
     height: 500px;
     border-radius: 10px;
@@ -1011,6 +1010,7 @@ footer{
     text-align: center;
     font-size: 20px;
 }
+
 }
 
 
@@ -1022,7 +1022,7 @@ footer{
 
 /*------------------------------------------*/
 
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
     
    
  .menu .container{
@@ -1201,7 +1201,7 @@ hr {
 .lista-informacion{
     display: flex;
     flex-direction: column;
-    margin-left: -20px;
+    margin-left: -120px;
 }
 
 
@@ -1222,8 +1222,8 @@ hr {
     width: 500px;
 }
 
-}
 
+}
 
 
 
